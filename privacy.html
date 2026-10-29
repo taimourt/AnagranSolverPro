@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Privacy Policy | AnagramSolver PRO</title>
+    <meta name="description" content="Privacy Policy for AnagramSolver PRO. Learn how we respect your privacy, collect zero personal search data, and process anagrams client-side." />
+    <meta name="robots" content="index, follow" />
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%23f59e0b'/><text x='50' y='68' font-family='sans-serif' font-size='60' font-weight='bold' text-anchor='middle' fill='%2378350f'>A</text></svg>" />
+    <link rel="stylesheet" href="/src/style.css" />
+    <script>
+      const savedTheme = localStorage.getItem('asp_theme') || 'dark';
+      document.documentElement.setAttribute('data-theme', savedTheme);
+    </script>
+  </head>
+  <body>
+    <div class="legal-page-wrapper">
+      <div class="legal-header">
+        <a href="/" class="legal-back-link">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
+          <span>Back to Anagram Solver</span>
+        </a>
+        <h1 class="legal-title">Privacy Policy</h1>
+        <div class="legal-updated">Last Updated: October 2026 &bull; Effective Immediately</div>
+      </div>
+
+      <!-- Legal Navigation Sub-bar -->
+      <nav class="legal-nav-bar" aria-label="Legal navigation">
+        <a href="/privacy.html" class="legal-nav-link active">Privacy Policy</a>
+        <a href="/terms.html" class="legal-nav-link">Terms of Service</a>
+        <a href="/disclaimer.html" class="legal-nav-link">Trademark Disclaimer</a>
+        <a href="/cookies.html" class="legal-nav-link">Cookie &amp; Storage Policy</a>
+      </nav>
+
+      <main class="legal-card">
+        <div class="legal-callout">
+          <strong>Privacy Summary:</strong> AnagramSolver PRO processes your anagram searches <strong>entirely in your local browser memory</strong>. We do not require registration, we do not log your search inputs, and we do not sell your personal data.
+        </div>
+
+        <h2>1. Information We Do Not Collect</h2>
+        <p>
+          Unlike legacy search engines and word tools, AnagramSolver PRO does not require an account, email address, password, or billing information. When you type letters or unscramble words:
+        </p>
+        <ul>
+          <li>Your rack letters and search queries are processed locally on your device via client-side JavaScript.</li>
+          <li>We do not record, store, or profile the words you look up or solve.</li>
+          <li>We do not sell, rent, or monetize your search history with data brokers or marketing networks.</li>
+        </ul>
+
+        <h2>2. Information Stored Locally on Your Device (LocalStorage)</h2>
+        <p>
+          To provide a seamless user experience, AnagramSolver PRO uses your web browser's modern <code>localStorage</code> feature to remember non-identifying preferences:
+        </p>
+        <ul>
+          <li><code>asp_theme</code>: Remembers whether you prefer Dark Mode or Light Mode.</li>
+          <li><code>asp_sound_enabled</code>: Remembers if you enabled or muted tactile tile clacking sound effects.</li>
+          <li><code>asp_saved_words</code>: Stores words you deliberately starred or bookmarked into your private Favorites drawer.</li>
+        </ul>
+        <p>
+          This data remains strictly on your device and is never transmitted to our servers. You can clear this data at any time via your browser settings or by clicking "Clear All" in the Saved Words drawer.
+        </p>
+
+        <h2>3. Third-Party API Requests &amp; Definitions</h2>
+        <p>
+          When you click on a word to view its definition and phonetics, a client-side request is sent to the free public Dictionary API (<code>api.dictionaryapi.dev</code>). This request transmits only the specific English word you clicked to retrieve standard definitions, part of speech, and pronunciation. No personal identifiers or tracker tokens are included in these dictionary queries.
+        </p>
+
+        <h2>4. Cookies &amp; Tracking Technologies</h2>
+        <p>
+          AnagramSolver PRO does not use tracking cookies, cross-site trackers, or fingerprinting scripts. We believe online utilities should be fast, private, and distraction-free.
+        </p>
+
+        <h2>5. Children's Privacy (COPPA Compliance)</h2>
+        <p>
+          AnagramSolver PRO is a family-friendly educational tool and does not knowingly collect personally identifiable information from children under 13 (or under 16 in the European Union). Because no personal information is collected from any user, our services comply fully with the Children's Online Privacy Protection Act (COPPA).
+        </p>
+
+        <h2>6. Your Rights (GDPR &amp; CCPA / CPRA)</h2>
+        <p>
+          Under the General Data Protection Regulation (GDPR) and California Consumer Privacy Act (CCPA):
+        </p>
+        <ul>
+          <li><strong>Right to Know / Access:</strong> You have the right to know what personal data is processed. (We collect no personal data).</li>
+          <li><strong>Right to Deletion:</strong> You have the right to request deletion of your data. You can delete all locally stored preferences instantly by clearing your browser cache.</li>
+          <li><strong>Non-Discrimination:</strong> We do not discriminate against users who exercise their privacy rights.</li>
+        </ul>
+
+        <h2>7. Contact Us Regarding Privacy</h2>
+        <p>
+          If you have questions, suggestions, or privacy inquiries regarding AnagramSolver PRO, please reach out to us at:
+        </p>
+        <p>
+          <strong>Email:</strong> <code>privacy@anagramsolverpro.com</code><br />
+          <strong>Website:</strong> <a href="/" style="color:var(--text-accent);">https://anagramsolverpro.com</a>
+        </p>
+      </main>
+
+      <footer style="text-align:center; color:var(--text-muted); font-size:0.85rem; margin-top:2.5rem;">
+        <p>&copy; 2026 AnagramSolver PRO &bull; All Rights Reserved.</p>
+      </footer>
+    </div>
+  </body>
+</html>
