@@ -7,6 +7,14 @@
     <meta name="description" content="Fast, free anagram solver and word finder. Unscramble letters to find all possible words, solve multi-word anagrams, find words with missing letters, and score for Scrabble & Words with Friends." />
     <meta name="keywords" content="anagram solver, anagram, anagrams, wordfinder, word finder, word solver, wordsolver, anagram finder, anagram solver free, anagram free solver, anagram generator, anagram maker, what words can i make with the following letters, words that can be made with the following letters, form a word with given letters, generate a word with these letters, 7 letter word using these letters, six letter word with these letters, anagram solver multiple words, anagram solver find all possible words, what is an anagram, anagram solver uk, wordsolver uk, the word finder" />
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%23f59e0b'/><text x='50' y='68' font-family='sans-serif' font-size='60' font-weight='bold' text-anchor='middle' fill='%2378350f'>A</text></svg>" />
+    <link rel="canonical" href="https://anagramsolverpro.com/" />
+    <link rel="alternate" hreflang="x-default" href="https://anagramsolverpro.com/" />
+    <link rel="alternate" hreflang="en" href="https://anagramsolverpro.com/" />
+    <link rel="alternate" hreflang="es" href="https://anagramsolverpro.com/es/" />
+    <link rel="alternate" hreflang="fr" href="https://anagramsolverpro.com/fr/" />
+    <link rel="alternate" hreflang="de" href="https://anagramsolverpro.com/de/" />
+    <link rel="alternate" hreflang="it" href="https://anagramsolverpro.com/it/" />
+    <link rel="alternate" hreflang="pt" href="https://anagramsolverpro.com/pt/" />
     <link rel="stylesheet" href="/src/style.css" />
 
     <!-- Schema.org Structured Data: FAQPage & WebApplication -->
@@ -154,6 +162,65 @@
 
           <!-- Utilities -->
           <div class="header-actions">
+            <!-- Language Selector Dropdown -->
+            <div class="lang-selector-dropdown" id="lang-selector-dropdown">
+              <button class="lang-selector-btn" id="lang-menu-btn" aria-haspopup="true" aria-expanded="false" title="Switch Language" aria-label="Switch Language">
+                <span class="lang-flag" id="current-lang-flag">🇺🇸</span>
+                <span class="lang-code" id="current-lang-code">EN</span>
+                <svg class="dropdown-caret" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+              </button>
+              <div class="lang-menu" id="lang-menu" role="menu">
+                <a href="/" class="lang-option active" data-lang="en" role="menuitem">
+                  <span class="option-flag">🇺🇸</span>
+                  <div class="option-details">
+                    <span class="option-name">English</span>
+                    <span class="option-sub">English</span>
+                  </div>
+                  <svg class="check-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                </a>
+                <a href="/es/" class="lang-option" data-lang="es" role="menuitem">
+                  <span class="option-flag">🇪🇸</span>
+                  <div class="option-details">
+                    <span class="option-name">Español</span>
+                    <span class="option-sub">Spanish</span>
+                  </div>
+                  <svg class="check-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                </a>
+                <a href="/fr/" class="lang-option" data-lang="fr" role="menuitem">
+                  <span class="option-flag">🇫🇷</span>
+                  <div class="option-details">
+                    <span class="option-name">Français</span>
+                    <span class="option-sub">French</span>
+                  </div>
+                  <svg class="check-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                </a>
+                <a href="/de/" class="lang-option" data-lang="de" role="menuitem">
+                  <span class="option-flag">🇩🇪</span>
+                  <div class="option-details">
+                    <span class="option-name">Deutsch</span>
+                    <span class="option-sub">German</span>
+                  </div>
+                  <svg class="check-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                </a>
+                <a href="/it/" class="lang-option" data-lang="it" role="menuitem">
+                  <span class="option-flag">🇮🇹</span>
+                  <div class="option-details">
+                    <span class="option-name">Italiano</span>
+                    <span class="option-sub">Italian</span>
+                  </div>
+                  <svg class="check-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                </a>
+                <a href="/pt/" class="lang-option" data-lang="pt" role="menuitem">
+                  <span class="option-flag">🇵🇹</span>
+                  <div class="option-details">
+                    <span class="option-name">Português</span>
+                    <span class="option-sub">Portuguese</span>
+                  </div>
+                  <svg class="check-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                </a>
+              </div>
+            </div>
+
             <!-- Sound FX Toggle -->
             <button class="icon-btn" id="sound-toggle-btn" title="Toggle Sound FX" aria-label="Toggle Sound FX">
               <svg id="sound-icon-on" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/></svg>

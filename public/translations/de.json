@@ -1,0 +1,187 @@
+{
+  "lang": "de",
+  "name": "German",
+  "nativeName": "Deutsch",
+  "flag": "🇩🇪",
+  "dir": "ltr",
+  "meta": {
+    "title": "Kostenloser Anagramm-Löser & Wortgenerator | Buchstaben Entwirren Online",
+    "description": "Schneller und kostenloser Anagramm-Löser und Wortfinder. Entwirren Sie Buchstaben, um alle möglichen Wörter zu finden, lösen Sie Mehrwort-Anagramme und ermitteln Sie Punkte für Scrabble.",
+    "keywords": "anagramm löser, anagramme, wortgenerator, buchstaben entwirren, wörter aus buchstaben, scrabble hilfe, kreuzworträtsel hilfe, wortfinder, wörter mit buchstaben finden, 7 buchstaben wörter, anagramm finder"
+  },
+  "nav": {
+    "anagrams": "Anagramme",
+    "multiWord": "Mehrere Wörter",
+    "pattern": "Muster",
+    "arena": "Arena",
+    "playBadge": "Spielen",
+    "twoLetters": "2-Buchstaben-Liste"
+  },
+  "hero": {
+    "title": "Kostenloser Anagramm-Löser & Wortgenerator",
+    "subtitle": "Sie fragen sich, <em>welche Wörter kann ich mit diesen Buchstaben bilden</em> oder suchen einen sofortigen <strong>Wortfinder</strong>? Geben Sie Ihre Buchstaben ein, um <strong>Wörter zu entwirren</strong>, fehlende Buchstaben zu ergänzen und Höchstpunktzahlen bei Scrabble zu erzielen."
+  },
+  "search": {
+    "rackPlaceholder": "Geben Sie Buchstaben ein, um Steine auf die Bank zu legen",
+    "inputPlaceholder": "Buchstaben eingeben, um alle Wörter zu finden ('?' oder Leertaste für Joker)...",
+    "solveBtn": "Anagramme Lösen",
+    "filtersBtn": "Filter",
+    "tip": "Tipp: Drücken Sie die Leertaste, um einen leeren Joker-Stein einzufügen",
+    "shuffleBtn": "Mischen",
+    "randomRackBtn": "Zufällige Bank",
+    "clearBtn": "Buchstaben löschen"
+  },
+  "filters": {
+    "lexiconLabel": "Spiel-Lexikon & Wörterbuch",
+    "sortLabel": "Ergebnisse Sortieren Nach",
+    "startsWith": "Beginnt Mit",
+    "endsWith": "Endet Auf",
+    "contains": "Enthält Zeichenfolge",
+    "exclude": "Buchstaben Ausschließen",
+    "minLen": "Mindestlänge",
+    "maxLen": "Maximallänge",
+    "allLetters": "ALLE Buchstaben verwenden (Reine Anagramme)",
+    "resetFilters": "Filter Zurücksetzen",
+    "regionalNote": "Regionale Wörterbücher: Wählen Sie SOWPODS / CSW für internationale Turniere oder TWL06 / ENABLE1 für Scrabble und Words With Friends."
+  },
+  "sortOptions": {
+    "lengthDesc": "Wortlänge (Längste Zuerst)",
+    "scrabble": "Scrabble-Punkte (Absteigend)",
+    "wwf": "Words With Friends Punkte (Absteigend)",
+    "lengthAsc": "Wortlänge (Kürzeste Zuerst)",
+    "alpha": "Alphabetisch (A - Z)"
+  },
+  "dictOptions": {
+    "enable1": "Words With Friends (ENABLE1 - 172k Wörter)",
+    "twl06": "Scrabble US (TWL06 - 83k Wörter)",
+    "sowpods": "Scrabble International (SOWPODS / CSW - 267k Wörter)",
+    "common": "Häufige Alltagswörter (20.000 Standard)"
+  },
+  "results": {
+    "foundWords": "{count} Wörter in {time}ms gefunden",
+    "copyAll": "Alle Kopieren",
+    "exportCsv": "CSV Exportieren",
+    "copiedToast": "{count} Wörter in die Zwischenablage kopiert!",
+    "exportedToast": "{count} Wörter als CSV exportiert",
+    "emptyTitle": "Bereit zum Entwirren",
+    "emptyDesc": "Geben Sie Ihre Buchstaben in das Suchfeld ein oder klicken Sie auf Zufällige Bank für 7 Spielsteine."
+  },
+  "multiWord": {
+    "title": "Mehrwort-Anagramm Generator",
+    "subtitle": "Verwandeln Sie Namen, Slogans und Phrasen in geistreiche Mehrwort-Kombinationen aus genau denselben Buchstaben.",
+    "placeholder": "Phrase oder Name - z.B. ASTRONOM oder ALBERT EINSTEIN",
+    "solveBtn": "Phrasen Finden",
+    "tip": "Erzeugt Kombinationen aus 2 bis 3 Wörtern mit allen exakten Buchstaben",
+    "emptyTitle": "Phrase zum Entwirren Eingeben",
+    "emptyDesc": "Geben Sie Namen oder Sätze ein, um alle mehrteiligen Anagramme zu entdecken."
+  },
+  "pattern": {
+    "title": "Wortmuster & Kreuzworträtsel-Löser",
+    "subtitle": "Lösen Sie Kreuzworträtsel, Wordle und Brettmuster. Verwenden Sie Punkte (.) oder Fragezeichen (?) für Leerstellen.",
+    "placeholder": "Muster - z.B. B..T oder S??LE oder ??ZZ??",
+    "solveBtn": "Treffer Suchen",
+    "tip": "Optionale Buchstaben-Einschränkung:",
+    "constraintPlaceholder": "Nur diese Buchstaben verwenden (optional)",
+    "emptyTitle": "Wörter nach Muster Suchen",
+    "emptyDesc": "Geben Sie ein Muster wie B..T ein, um passende Wörter zu finden."
+  },
+  "arena": {
+    "title": "Anagramm-Arena & Wort-Trainer",
+    "subtitle": "Entwirren Sie die Geheimsteine, bevor die Zeit abläuft! Klicken Sie auf Steine oder tippen Sie auf der Tastatur.",
+    "difficulty": "Schwierigkeit",
+    "score": "Punkte",
+    "streak": "Serie",
+    "time": "Zeit",
+    "clearBtn": "Leeren",
+    "shuffleBtn": "Mischen",
+    "hintBtn": "Hinweis",
+    "nextBtn": "Nächstes Wort"
+  },
+  "twoLetter": {
+    "title": "Offizielle 2-Buchstaben-Wortliste",
+    "subtitle": "Die Geheimwaffe echter Scrabble-Meister. Lernen Sie alle gültigen 2-Buchstaben-Wörter, Punktwerte und Bedeutungen.",
+    "searchPlaceholder": "2-Buchstaben-Wörter oder Definitionen suchen...",
+    "sortAlpha": "Sortieren: A-Z",
+    "sortPoints": "Sortieren: Höchste Punkte"
+  },
+  "howItWorks": {
+    "eyebrow": "Schneller Wortfinder & Anagramm-Löser",
+    "h2": "Wörter aus Gegebenen Buchstaben Bilden (3 Einfache Schritte)",
+    "lead": "Egal ob Sie ein schnelles Tool zum Entwirren von Buchstaben suchen oder Scrabble dominieren wollen: Unser kostenloser Wortfinder generiert alle Möglichkeiten in Millisekunden.",
+    "step1Title": "1. Buchstaben Eingeben",
+    "step1Desc": "Tippen Sie Ihre Steine oder Buchstabensalat in das Suchfeld. Sie fragen sich, was aus diesen Buchstaben werden kann? Geben Sie bis zu 20 Zeichen ein. Nutzen Sie '?' oder Leertaste für Joker.",
+    "step2Title": "2. Nach Länge & Jokern Filtern",
+    "step2Desc": "Suchen Sie ein 7-Buchstaben-Wort für ein Scrabble-Bingo (50 Bonuspunkte)? Stellen Sie Mindest- und Maximallängen ein oder filtern Sie nach Präfixen und Suffixen.",
+    "step3Title": "3. Wörter Sofort Bilden",
+    "step3Desc": "Klicken Sie auf Anagramme Lösen. Alle Ergebnisse werden nach Wortlänge und Turnierpunkten geordnet. Klicken Sie auf ein Wort für Aussprache und Definition."
+  },
+  "features": {
+    "eyebrow": "Leistungsstarke Funktionen",
+    "h2": "Erweiterte Wortfinder-Möglichkeiten",
+    "lead": "Entwickelt, um alle denkbaren Wörter blitzschnell aufzuspüren und Highscores zu erzielen.",
+    "f1Title": "7-Buchstaben-Wortfinder (Bingo)",
+    "f1Desc": "Das Ausspielen aller 7 Steine bringt 50 Bonuspunkte im Scrabble. Unser Bingo-Filter deckt sofort gewinnbringende 7er-Wörter auf.",
+    "f2Title": "Wörter mit Fehlenden Buchstaben Finden",
+    "f2Desc": "Stecken Sie im Kreuzworträtsel oder Wordle fest? Setzen Sie Platzhalter (?) oder nutzen Sie den Muster-Reiter, um das gesuchte Wort in Sekunden zu enthüllen.",
+    "f3Title": "Mehrwort-Anagramm Generator",
+    "f3Desc": "Im Gegensatz zu einfachen Wortfindern bildet unsere Engine auch clevere Phrasen aus zwei oder drei Wörtern aus vollständigen Namen.",
+    "f4Title": "Internationale Turnier-Lexika",
+    "f4Desc": "Nutzen Sie anerkannte Wörterbücher wie SOWPODS (CSW), TWL06 und ENABLE1 mit voller Regelkonformität."
+  },
+  "whatIsAnagram": {
+    "eyebrow": "Wortspiel-Wissen",
+    "h2": "Was ist ein Anagramm?",
+    "p1": "Ein Anagramm ist ein Wort oder eine Wortgruppe, die durch Umstellung der Buchstaben eines anderen Wortes entsteht, wobei alle ursprünglichen Buchstaben exakt einmal verwendet werden. Zum Beispiel wird aus 'Leben' das Wort 'Nebel' oder aus 'Ampel' das Wort 'Palme'.",
+    "p2": "Seit der Antike faszinieren Anagramme Sprachbegeisterte. In modernen Wortspielen wie Scrabble, Wordfeud oder Boggle ist das blitzschnelle Erkennen von Anagrammen der Schlüssel zum Sieg.",
+    "boxTitle": "Warum AnagramSolver PRO wählen?",
+    "boxDesc": "Ohne nervige Werbung, mit extrem schnellen Antwortzeiten unter 5 Millisekunden, interaktiver 3D-Buchstabenbank und Audio-Aussprache."
+  },
+  "faq": {
+    "eyebrow": "Häufig Gestellte Fragen",
+    "h2": "FAQ zum Anagramm-Löser & Wortgenerator",
+    "lead": "Antworten auf die wichtigsten Fragen zur Nutzung unseres kostenlosen Wortsuchers.",
+    "q1": "Wie funktioniert der Anagramm-Löser?",
+    "a1": "Unser System verwendet vorkompilierte Buchstabenhäufigkeits-Profile über mehr als 260.000 Turnierwörter. Dadurch werden alle gültigen Kombinationen in unter 5 Millisekunden ermittelt.",
+    "q2": "Welche Wörter kann ich mit meinen Buchstaben bilden?",
+    "a2": "Geben Sie Ihre Buchstaben einfach oben ein. Das Tool prüft alle Permutationen und Teilkombinationen, sortiert sie nach Länge und berechnet die Scrabble-Punkte.",
+    "q3": "Was ist ein echtes Anagramm?",
+    "a3": "Ein echtes (reines) Anagramm nutzt alle vorgegebenen Buchstaben vollständig ohne Rest. Bekannte Beispiele: Lampe ↔ Palme, Mehl ↔ Lehm.",
+    "q4": "Kann ich Mehrwort-Anagramme lösen?",
+    "a4": "Ja! Wechseln Sie zum Reiter 'Mehrere Wörter'. Unser Algorithmus generiert 2- und 3-Wort-Kombinationen aus Ihrem Text.",
+    "q5": "Wie finde ich Wörter mit fehlenden Buchstaben?",
+    "a5": "Setzen Sie ein '?' oder drücken Sie die Leertaste im Suchfeld für Joker-Steine. Für Kreuzworträtsel nutzen Sie den Reiter 'Muster'.",
+    "q6": "Welche Punkte werden angezeigt?",
+    "a6": "Jedes Wort zeigt die offiziellen Scrabble-Turnierpunkte (SCR) sowie Words With Friends Punkte (WWF) an.",
+    "q7": "Wie finde ich ein 7-Buchstaben-Wort (Bingo)?",
+    "a7": "Geben Sie 7 Buchstaben ein und aktivieren Sie 'ALLE Buchstaben verwenden' oder klicken Sie auf den Filter '7 Buchstaben'.",
+    "q8": "Welche Wörterbücher sind verfügbar?",
+    "a8": "Sie können zwischen dem internationalen CSW/SOWPODS (267.000 Wörter), US-TWL06 (83.000) und ENABLE1 (172.000) wählen.",
+    "q9": "Ist dieser Anagramm-Löser kostenlos?",
+    "a9": "Ja, AnagramSolver PRO ist 100 % kostenlos, werbefrei und ohne Registrierung nutzbar."
+  },
+  "footer": {
+    "title": "AnagramSolver PRO • Kostenloser Online-Wortfinder",
+    "subtitle": "Schnellster Wortgenerator, Kreuzworträtsel-Löser und Scrabble-Helfer.",
+    "howItWorks": "Anleitung",
+    "faq": "FAQ",
+    "backToTop": "Nach Oben ↑",
+    "privacy": "Datenschutz",
+    "terms": "Nutzungsbedingungen",
+    "disclaimer": "Marken & Fair Use",
+    "cookies": "Cookie-Richtlinie",
+    "disclaimerNotice": "SCRABBLE® ist ein eingetragenes Warenzeichen von Hasbro bzw. Mattel. WORDS WITH FRIENDS™ ist ein Warenzeichen von Zynga. AnagramSolver PRO ist ein unabhängiges Referenztool.",
+    "copyright": "© 2026 AnagramSolver PRO • Alle Wörterbücher dienen Bildungs- und Referenzzwecken."
+  },
+  "modals": {
+    "definitions": "Definitionen",
+    "pronounce": "Wort Aussprechen",
+    "close": "Schließen",
+    "saveWord": "Wort Speichern",
+    "wordSaved": "Gespeichert",
+    "tileBreakdown": "Punkteaufteilung nach Buchstaben",
+    "savedWordsTitle": "Gespeicherte Wörter",
+    "clearAll": "Alle Löschen",
+    "exportSaved": "Liste Exportieren",
+    "noSavedWords": "Noch keine Wörter gespeichert. Klicken Sie auf das Stern-Symbol, um ein Wort zu merken!"
+  }
+}

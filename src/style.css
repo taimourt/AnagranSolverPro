@@ -306,6 +306,145 @@ body {
   padding: 0 3px;
 }
 
+/* Language Selector Dropdown */
+.lang-selector-dropdown {
+  position: relative;
+}
+
+.lang-selector-btn {
+  height: 36px;
+  padding: 0 0.65rem;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-subtle);
+  background: var(--bg-card);
+  color: var(--text-primary);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  cursor: pointer;
+  font-size: 0.82rem;
+  font-weight: 600;
+  font-family: var(--font-body);
+  transition: all 0.2s ease;
+  user-select: none;
+}
+
+.lang-selector-btn:hover {
+  background: var(--bg-elevated);
+  border-color: var(--border-focus);
+}
+
+.lang-flag {
+  font-size: 1.05rem;
+  line-height: 1;
+}
+
+.lang-code {
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: var(--text-primary);
+}
+
+.dropdown-caret {
+  color: var(--text-muted);
+  transition: transform 0.2s ease;
+}
+
+.lang-selector-dropdown.open .dropdown-caret {
+  transform: rotate(180deg);
+}
+
+.lang-menu {
+  position: absolute;
+  top: calc(100% + 8px);
+  right: 0;
+  min-width: 200px;
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+  padding: 0.35rem;
+  box-shadow: var(--shadow-lg), 0 10px 25px -5px rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  z-index: 1000;
+  display: none;
+  flex-direction: column;
+  gap: 2px;
+  animation: fadeInDown 0.18s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.lang-selector-dropdown.open .lang-menu {
+  display: flex;
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.lang-option {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  padding: 0.5rem 0.65rem;
+  border-radius: var(--radius-sm);
+  color: var(--text-secondary);
+  text-decoration: none;
+  font-size: 0.85rem;
+  transition: all 0.15s ease;
+}
+
+.lang-option:hover {
+  background: var(--bg-elevated);
+  color: var(--text-primary);
+}
+
+.lang-option.active {
+  background: rgba(245, 158, 11, 0.12);
+  color: var(--primary);
+  font-weight: 600;
+}
+
+.lang-option .option-flag {
+  font-size: 1.15rem;
+  line-height: 1;
+}
+
+.lang-option .option-details {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.lang-option .option-name {
+  font-weight: 600;
+  font-size: 0.85rem;
+  line-height: 1.2;
+}
+
+.lang-option .option-sub {
+  font-size: 0.72rem;
+  color: var(--text-muted);
+  line-height: 1.2;
+}
+
+.lang-option .check-icon {
+  opacity: 0;
+  color: var(--primary);
+  transition: opacity 0.15s ease;
+}
+
+.lang-option.active .check-icon {
+  opacity: 1;
+}
+
 /* Hero Section */
 .hero-section {
   text-align: center;

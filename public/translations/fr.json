@@ -1,0 +1,187 @@
+{
+  "lang": "fr",
+  "name": "French",
+  "nativeName": "Français",
+  "flag": "🇫🇷",
+  "dir": "ltr",
+  "meta": {
+    "title": "Solveur d'Anagrammes Gratuit & Recherche de Mots | Déchiffrer des Lettres",
+    "description": "Solveur d'anagrammes rapide et gratuit. Déchiffrez vos lettres pour trouver tous les mots possibles, résolvez des anagrammes à plusieurs mots et calculez vos points pour le Scrabble et les jeux de lettres.",
+    "keywords": "solveur anagramme, anagrammes, trouver des mots, déchiffrer lettres, générateur d'anagrammes, scrabble francophone, dictionnaire scrabble, mots croisés, joker scrabble, mots de 7 lettres scrabble, tricher scrabble, mots avec ces lettres"
+  },
+  "nav": {
+    "anagrams": "Anagrammes",
+    "multiWord": "Mots Multiples",
+    "pattern": "Motif",
+    "arena": "Arène",
+    "playBadge": "Jouer",
+    "twoLetters": "Mots de 2 Lettres"
+  },
+  "hero": {
+    "title": "Solveur d'Anagrammes Gratuit & Générateur de Mots",
+    "subtitle": "Vous cherchez <em>quels mots faire avec ces lettres</em> ou avez besoin d'un <strong>chercheur de mots</strong> instantané ? Saisissez vos lettres pour <strong>déchiffrer des anagrammes</strong>, compléter des mots avec lettres manquantes et marquer un maximum de points au Scrabble."
+  },
+  "search": {
+    "rackPlaceholder": "Saisissez vos lettres ci-dessous pour garnir le chevalet",
+    "inputPlaceholder": "Entrez vos lettres pour trouver tous les mots (utilisez '?' ou espace pour un joker)...",
+    "solveBtn": "Résoudre les Anagrammes",
+    "filtersBtn": "Filtres",
+    "tip": "Astuce : Appuyez sur Espace pour insérer une lettre joker vierge",
+    "shuffleBtn": "Mélanger",
+    "randomRackBtn": "Tirage Aléatoire",
+    "clearBtn": "Effacer"
+  },
+  "filters": {
+    "lexiconLabel": "Lexique de Jeu & Dictionnaire",
+    "sortLabel": "Trier les Résultats Par",
+    "startsWith": "Commence Par",
+    "endsWith": "Se Termine Par",
+    "contains": "Contient la Sous-chaîne",
+    "exclude": "Exclure les Lettres",
+    "minLen": "Longueur Minimale",
+    "maxLen": "Longueur Maximale",
+    "allLetters": "Utiliser TOUTES les lettres (Anagrammes Pures)",
+    "resetFilters": "Réinitialiser les Filtres",
+    "regionalNote": "Dictionnaires Internationaux : Sélectionnez le lexique international SOWPODS / CSW pour les tournois ou ENABLE1 / TWL06 pour les parties classiques."
+  },
+  "sortOptions": {
+    "lengthDesc": "Longueur de Mot (Plus Longs d'Abord)",
+    "scrabble": "Points Scrabble (Décroissant)",
+    "wwf": "Points Words With Friends (Décroissant)",
+    "lengthAsc": "Longueur de Mot (Plus Courts d'Abord)",
+    "alpha": "Alphabétique (A - Z)"
+  },
+  "dictOptions": {
+    "enable1": "Words With Friends (ENABLE1 - 172k mots)",
+    "twl06": "Scrabble Tournoi Nord-Américain (TWL06 - 83k mots)",
+    "sowpods": "Scrabble International / SOWPODS (267k mots)",
+    "common": "Vocabulaire Courant Usuel (20 000 mots)"
+  },
+  "results": {
+    "foundWords": "{count} mots trouvés en {time}ms",
+    "copyAll": "Tout Copier",
+    "exportCsv": "Exporter CSV",
+    "copiedToast": "{count} mots copiés dans le presse-papiers !",
+    "exportedToast": "{count} mots exportés en CSV",
+    "emptyTitle": "Prêt à Déchiffrer",
+    "emptyDesc": "Entrez vos lettres dans la barre ci-dessus ou cliquez sur Tirage Aléatoire pour tester un tirage de 7 lettres."
+  },
+  "multiWord": {
+    "title": "Générateur d'Anagrammes à Plusieurs Mots",
+    "subtitle": "Transformez des noms et des phrases en anagrammes spirituelles et amusantes à mots multiples.",
+    "placeholder": "Phrase ou Nom - ex. ASTRONOME ou CLINT EASTWOOD",
+    "solveBtn": "Trouver des Phrases",
+    "tip": "Génère des combinaisons exactes de 2 à 3 mots avec toutes les lettres",
+    "emptyTitle": "Entrez une Phrase à Anagrammer",
+    "emptyDesc": "Testez des noms de personnes ou des phrases pour découvrir toutes les combinaisons possibles."
+  },
+  "pattern": {
+    "title": "Recherche de Motifs & Mots Croisés",
+    "subtitle": "Résolvez vos grilles de mots croisés, mots fléchés ou Wordle. Utilisez des points (.) ou des points d'interrogation (?) pour les lettres inconnues.",
+    "placeholder": "Motif - ex. C..T ou P??E ou ??ZZ??",
+    "solveBtn": "Trouver les Mots",
+    "tip": "Contrainte facultative de lettres disponibles :",
+    "constraintPlaceholder": "Doit utiliser uniquement ces lettres (optionnel)",
+    "emptyTitle": "Rechercher par Schéma",
+    "emptyDesc": "Entrez un modèle comme C..T pour trouver des mots correspondants."
+  },
+  "arena": {
+    "title": "Arène d'Anagrammes & Entraînement",
+    "subtitle": "Déchiffrez le mot mystère avant la fin du compte à rebours ! Cliquez sur les lettres ou tapez au clavier.",
+    "difficulty": "Difficulté",
+    "score": "Score",
+    "streak": "Série",
+    "time": "Temps",
+    "clearBtn": "Effacer",
+    "shuffleBtn": "Mélanger",
+    "hintBtn": "Indice",
+    "nextBtn": "Mot Suivant"
+  },
+  "twoLetter": {
+    "title": "Aide-Mémoire Officiel des Mots de 2 Lettres",
+    "subtitle": "L'arme absolue des champions de Scrabble. Découvrez tous les mots de 2 lettres autorisés, leurs valeurs et définitions.",
+    "searchPlaceholder": "Rechercher un mot de 2 lettres ou une définition...",
+    "sortAlpha": "Tri : A-Z",
+    "sortPoints": "Tri : Meilleurs Points"
+  },
+  "howItWorks": {
+    "eyebrow": "Solveur & Chercheur de Mots Immédiat",
+    "h2": "Comment Former un Mot avec des Lettres Données (3 Étapes)",
+    "lead": "Que vous ayez besoin d'un outil rapide pour déchiffrer des lettres ou trouver le mot parfait au Scrabble, notre solveur calcule chaque combinaison en quelques millisecondes.",
+    "step1Title": "1. Saisissez vos Lettres",
+    "step1Desc": "Tapez les lettres de votre chevalet dans le champ de recherche. Vous vous demandez quels mots former avec ces lettres ? Utilisez '?' ou la barre d'espace pour ajouter un joker.",
+    "step2Title": "2. Filtrez par Longueur & Jokers",
+    "step2Desc": "Vous visez un mot de 7 lettres pour réussir un Scrabble (50 points bonus), ou un mot de 6 lettres ? Définissez la taille minimale et maximale ou utilisez des préfixes et suffixes.",
+    "step3Title": "3. Formez des Mots Immédiatement",
+    "step3Desc": "Cliquez sur Résoudre pour afficher tous les mots classés par nombre de lettres et points de jeu. Cliquez sur un mot pour voir sa définition et écouter sa prononciation."
+  },
+  "features": {
+    "eyebrow": "Fonctionnalités Clés",
+    "h2": "Capacités Avancées de Résolution de Mots",
+    "lead": "Conçu pour vous aider à trouver tous les mots valides et optimiser vos coups stratégiques.",
+    "f1Title": "Chercheur de Mots de 7 Lettres (Scrabble)",
+    "f1Desc": "Placer vos 7 lettres d'un coup rapporte 50 points de bonification. Notre filtre de 7 lettres identifie immédiatement les combinaisons gagnantes.",
+    "f2Title": "Trouver des Mots avec Lettres Manquantes",
+    "f2Desc": "Bloqué dans une grille de mots croisés ? Utilisez des jokers (?) ou l'onglet Motif pour compléter vos trous en quelques instants.",
+    "f3Title": "Anagrammes à Mots Multiples",
+    "f3Desc": "Notre moteur calcule des anagrammes complètes découpées en plusieurs mots pour créer des phrases originales à partir de noms ou de titres.",
+    "f4Title": "Dictionnaires Internationaux Tournoi",
+    "f4Desc": "Bénéficiez de lexiques de référence vérifiés pour les compétitions officielles avec calcul exact des scores."
+  },
+  "whatIsAnagram": {
+    "eyebrow": "Culture & Règles du Jeu",
+    "h2": "Qu'est-ce qu'une Anagramme ?",
+    "p1": "Une anagramme est un mot ou une phrase obtenu en transposant les lettres d'un autre mot ou d'une autre phrase, chaque lettre d'origine étant utilisée exactement une fois. Par exemple, 'chien' est l'anagramme de 'niche', et 'gare' donne 'rage'.",
+    "p2": "Pratiquées depuis l'Antiquité grecque, les anagrammes sont au cœur de tous les grands jeux de lettres (Scrabble, Boggle, Wordle, Mots Croisés). Savoir recombiner instantanément un tirage de lettres permet de dominer ses adversaires.",
+    "boxTitle": "Pourquoi Choisir AnagramSolver PRO ?",
+    "boxDesc": "Contrairement aux sites anciens saturés de publicités intrusives, AnagramSolver PRO s'exécute côté client en moins de 5 millisecondes, sans aucune pub, avec un chevalet 3D tactile et un générateur de phrases complet."
+  },
+  "faq": {
+    "eyebrow": "Foire Aux Questions",
+    "h2": "Questions Fréquentes sur le Solveur d'Anagrammes",
+    "lead": "Réponses aux questions courantes pour déchiffrer des lettres et tirer le meilleur parti de notre dictionnaire.",
+    "q1": "Comment fonctionne le solveur d'anagrammes ?",
+    "a1": "Notre outil utilise des histogrammes de fréquences de lettres précalculés sur plus de 260 000 mots. L'algorithme compare vos lettres en moins de 5 millisecondes pour identifier toutes les solutions valides.",
+    "q2": "Quels mots puis-je faire avec mes lettres ?",
+    "a2": "Entrez simplement vos lettres dans la barre de recherche. L'outil génère l'ensemble des sous-mots et anagrammes complètes, triés par longueur et accompagnés de leurs points officiels.",
+    "q3": "Qu'est-ce qu'une anagramme exacte ?",
+    "a3": "Une anagramme exacte (ou pure) utilise l'intégralité de vos lettres sans en laisser aucune de côté. Exemples célèbres : Manoir ↔ Romain, Soigneur ↔ Guérison.",
+    "q4": "Peut-on trouver des anagrammes de plusieurs mots ?",
+    "a4": "Oui ! Cliquez sur l'onglet 'Mots Multiples'. Notre moteur récursif explore toutes les combinaisons possibles de 2 ou 3 mots à partir de votre texte.",
+    "q5": "Comment chercher un mot avec des lettres manquantes ?",
+    "a5": "Insérez un point d'interrogation (?) ou appuyez sur Espace pour symboliser un joker dans la recherche principale. Pour une grille de mots croisés, utilisez l'onglet Motif.",
+    "q6": "Quels points rapportent les mots trouvés ?",
+    "a6": "Chaque mot affiche les points Scrabble (SCR) et Words With Friends (WWF). Vous pouvez trier vos résultats par valeur maximale dans les filtres.",
+    "q7": "Comment trouver un mot de 7 lettres (Scrabble / Bingo) ?",
+    "a7": "Saisissez vos 7 lettres et activez l'option 'Utiliser TOUTES les lettres' ou cliquez sur le filtre rapide '7 Lettres'. Poser vos 7 lettres rapporte un bonus de 50 points au Scrabble.",
+    "q8": "Quels sont les dictionnaires proposés ?",
+    "a8": "Vous disposez du lexique international SOWPODS / CSW (267 000 mots), du lexique TWL06 (83 000 mots) et du lexique ENABLE1 (172 000 mots).",
+    "q9": "Ce solveur d'anagrammes est-il gratuit ?",
+    "a9": "Oui, AnagramSolver PRO est 100 % gratuit, sans inscription, sans publicité intrusive et sans aucune limite d'utilisation."
+  },
+  "footer": {
+    "title": "AnagramSolver PRO • Solveur de Mots Gratuit en Ligne",
+    "subtitle": "Le générateur d'anagrammes le plus rapide pour le Scrabble, les mots croisés et les jeux de lettres.",
+    "howItWorks": "Comment ça Marche",
+    "faq": "FAQ",
+    "backToTop": "Haut de Page ↑",
+    "privacy": "Politique de Confidentialité",
+    "terms": "Conditions d'Utilisation",
+    "disclaimer": "Marques Déposées & Fair Use",
+    "cookies": "Politique des Cookies & Stockage",
+    "disclaimerNotice": "SCRABBLE® est une marque déposée de Mattel ou Hasbro. WORDS WITH FRIENDS™ est une marque de Zynga. AnagramSolver PRO est un outil de référence indépendant sans lien ni affiliation avec ces sociétés.",
+    "copyright": "© 2026 AnagramSolver PRO • Lexiques et dictionnaires fournis à des fins éducatives et de référence."
+  },
+  "modals": {
+    "definitions": "Définitions",
+    "pronounce": "Prononcer le Mot",
+    "close": "Fermer",
+    "saveWord": "Sauvegarder",
+    "wordSaved": "Mot Enregistré",
+    "tileBreakdown": "Détail des Points par Lettre",
+    "savedWordsTitle": "Mots Enregistrés",
+    "clearAll": "Tout Effacer",
+    "exportSaved": "Exporter la Liste",
+    "noSavedWords": "Aucun mot enregistré pour le moment. Cliquez sur l'étoile d'un mot pour le mémoriser !"
+  }
+}

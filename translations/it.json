@@ -1,0 +1,187 @@
+{
+  "lang": "it",
+  "name": "Italian",
+  "nativeName": "Italiano",
+  "flag": "🇮🇹",
+  "dir": "ltr",
+  "meta": {
+    "title": "Risolutore di Anagrammi Gratis & Generatore di Parole | Componi Parole Online",
+    "description": "Risolutore di anagrammi e generatore di parole veloce e gratuito. Risolvi lettere per trovare tutte le parole possibili, anagrammi di più parole e punti per Scarabeo e Scrabble.",
+    "keywords": "risolutore di anagrammi, anagrammi, generatore di parole, parole con lettere, anagrammatore, scarabeo, scrabble italiano, parole crociate, jolly scarabeo, parole di 7 lettere, comporre parole con lettere"
+  },
+  "nav": {
+    "anagrams": "Anagrammi",
+    "multiWord": "Più Parole",
+    "pattern": "Schema",
+    "arena": "Arena",
+    "playBadge": "Gioca",
+    "twoLetters": "Parole di 2 Lettere"
+  },
+  "hero": {
+    "title": "Risolutore di Anagrammi Gratis & Generatore di Parole",
+    "subtitle": "Ti chiedi <em>quali parole posso comporre con queste lettere</em> o cerchi un <strong>trova parole</strong> immediato? Inserisci le tue lettere per <strong>risolvere anagrammi</strong>, scoprire parole con lettere mancanti e massimizzare i tuoi punti a Scarabeo e Scrabble."
+  },
+  "search": {
+    "rackPlaceholder": "Digita le lettere per posizionare le tessere sul leggio",
+    "inputPlaceholder": "Inserisci le lettere per trovare tutte le parole ('?' o spazio per jolly)...",
+    "solveBtn": "Risolvi Anagrammi",
+    "filtersBtn": "Filtri",
+    "tip": "Suggerimento: Premi Spazio per inserire una tessera jolly vuota",
+    "shuffleBtn": "Mescola",
+    "randomRackBtn": "Leggio Casuale",
+    "clearBtn": "Cancella"
+  },
+  "filters": {
+    "lexiconLabel": "Lessico di Gioco & Dizionario",
+    "sortLabel": "Ordina Risultati Per",
+    "startsWith": "Inizia Con",
+    "endsWith": "Finisce Con",
+    "contains": "Contiene la Sequenza",
+    "exclude": "Escludi Lettere",
+    "minLen": "Lunghezza Minima",
+    "maxLen": "Lunghezza Massima",
+    "allLetters": "Usa TUTTE le lettere (Solo Anagrammi Puri)",
+    "resetFilters": "Reimposta Filtri",
+    "regionalNote": "Dizionari Ufficiali: Seleziona SOWPODS / CSW per tornei mondiali o ENABLE1 / TWL06 per partite standard."
+  },
+  "sortOptions": {
+    "lengthDesc": "Lunghezza Parola (Più Lunghe Prima)",
+    "scrabble": "Punti Scrabble (Dal Più Alto)",
+    "wwf": "Punti Words With Friends (Dal Più Alto)",
+    "lengthAsc": "Lunghezza Parola (Più Corte Prima)",
+    "alpha": "Alfabetico (A - Z)"
+  },
+  "dictOptions": {
+    "enable1": "Words With Friends (ENABLE1 - 172k parole)",
+    "twl06": "Scrabble Nord America (TWL06 - 83k parole)",
+    "sowpods": "Scrabble Internazionale / SOWPODS (267k parole)",
+    "common": "Parole Comuni d'Uso Frequente (20.000 vocaboli)"
+  },
+  "results": {
+    "foundWords": "Trovate {count} parole in {time}ms",
+    "copyAll": "Copia Tutto",
+    "exportCsv": "Esporta CSV",
+    "copiedToast": "{count} parole copiate negli appunti!",
+    "exportedToast": "{count} parole esportate in CSV",
+    "emptyTitle": "Pronto a Risolvere",
+    "emptyDesc": "Inserisci le lettere nella casella sopra o clicca su Leggio Casuale per provare una mano di 7 lettere."
+  },
+  "multiWord": {
+    "title": "Generatore di Anagrammi a Più Parole",
+    "subtitle": "Trasforma nomi e frasi in spiritosi anagrammi multi-parola ricombinando esattamente tutte le lettere.",
+    "placeholder": "Frase o Nome - es. ASTRONOMO o GIUSEPPE VERDI",
+    "solveBtn": "Trova Frasi",
+    "tip": "Genera combinazioni esatte da 2 a 3 parole utilizzando tutte le lettere",
+    "emptyTitle": "Inserisci una Frase da Anagrammare",
+    "emptyDesc": "Prova nomi o frasi celebri per scoprire tutte le combinazioni possibili."
+  },
+  "pattern": {
+    "title": "Cerca Schemi & Parole Crociate",
+    "subtitle": "Risolvi cruciverba, Wordle e incroci sul tabellone. Usa punti (.) o punti interrogativi (?) per gli spazi vuoti.",
+    "placeholder": "Schema - es. C..A o P??E o ??ZZ??",
+    "solveBtn": "Cerca Corrispondenze",
+    "tip": "Vincolo facoltativo sulle lettere disponibili:",
+    "constraintPlaceholder": "Usa solo queste lettere (facoltativo)",
+    "emptyTitle": "Trova Parole per Schema",
+    "emptyDesc": "Digita uno schema come C..A per trovare parole compatibili."
+  },
+  "arena": {
+    "title": "Arena Anagrammi & Allenamento",
+    "subtitle": "Risolvi la parola misteriosa prima che scada il tempo! Clicca sulle tessere o digita sulla tastiera.",
+    "difficulty": "Difficoltà",
+    "score": "Punteggio",
+    "streak": "Serie",
+    "time": "Tempo",
+    "clearBtn": "Pulisci",
+    "shuffleBtn": "Mescola",
+    "hintBtn": "Aiuto",
+    "nextBtn": "Prossima Parola"
+  },
+  "twoLetter": {
+    "title": "Elenco Ufficiale delle Parole di 2 Lettere",
+    "subtitle": "L'arma segreta dei campioni di Scarabeo e Scrabble. Tutte le parole valide da 2 lettere, punteggi e definizioni.",
+    "searchPlaceholder": "Cerca parole di 2 lettere o definizioni...",
+    "sortAlpha": "Ordina: A-Z",
+    "sortPoints": "Ordina: Punti Più Alti"
+  },
+  "howItWorks": {
+    "eyebrow": "Risolutore Istantaneo di Parole",
+    "h2": "Come Comporre Parole con Lettere Date (3 Semplici Passaggi)",
+    "lead": "Che tu voglia un aiuto rapido per trovare parole o desideri dominare a Scarabeo, il nostro risolutore genera ogni parola valida in millisecondi.",
+    "step1Title": "1. Inserisci le Tue Lettere",
+    "step1Desc": "Digita le lettere del tuo leggio nella casella di ricerca. Inserisci fino a 20 lettere. Usa '?' o la barra spaziatrice per inserire tessere jolly.",
+    "step2Title": "2. Filtra per Lunghezza & Jolly",
+    "step2Desc": "Cerchi una parola da 7 lettere per fare punteggio massimo o una da 6 lettere? Imposta lunghezze minime e massime, prefissi e suffissi.",
+    "step3Title": "3. Componi Parole Subito",
+    "step3Desc": "Clicca su Risolvi Anagrammi. I risultati vengono ordinati per lunghezza e punti di torneo. Clicca su qualsiasi parola per ascoltare la pronuncia e leggere la definizione."
+  },
+  "features": {
+    "eyebrow": "Funzionalità Avanzate",
+    "h2": "Strumenti Potenti per i Giochi di Lettere",
+    "lead": "Creato per aiutarti a individuare tutte le parole possibili e trovare le mosse più redditizie sul tabellone.",
+    "f1Title": "Trova Parole da 7 Lettere (Bingo / Scarabeo)",
+    "f1Desc": "Giocare tutte e 7 le tessere regala 50 punti bonus a Scrabble. Il nostro filtro 7 lettere scopre subito le combinazioni vincenti.",
+    "f2Title": "Trova Parole con Lettere Mancanti",
+    "f2Desc": "Bloccato su una parola crociata o Wordle? Inserisci jolly (?) o usa la scheda Schema per trovare la soluzione in pochi istanti.",
+    "f3Title": "Generatore Anagrammi Multi-Parola",
+    "f3Desc": "A differenza della maggior parte dei tool, il nostro motore crea frasi spiritose composte da più parole usando tutte le lettere fornite.",
+    "f4Title": "Dizionari Ufficiali da Competizione",
+    "f4Desc": "Consulta basi dati complete e aggiornate (CSW, TWL06, ENABLE1) per partite competitive ed eque."
+  },
+  "whatIsAnagram": {
+    "eyebrow": "Cultura delle Parole",
+    "h2": "Cos'è un Anagramma?",
+    "p1": "Un anagramma è una parola o frase ottenuta permutando le lettere di un'altra parola o frase, adoperando tutte le lettere originarie una sola volta. Ad esempio, le lettere di 'attore' formano 'teatro', e 'roma' dà 'amor' o 'mora'.",
+    "p2": "Conosciuti fin dai tempi dell'antica Grecia, gli anagrammi sono la base dei più popolari giochi da tavolo e digitali (Scarabeo, Scrabble, Wordle). Trovare la migliore combinazione su un leggio disordinato è l'abilità regina del gioco.",
+    "boxTitle": "Perché Scegliere AnagramSolver PRO?",
+    "boxDesc": "A differenza di vecchi siti pieni di pubblicità invasiva, AnagramSolver PRO è ultra-veloce (risposte sotto i 5 millisecondi), senza annunci, con leggio 3D interattivo e supporto multi-parola."
+  },
+  "faq": {
+    "eyebrow": "Domande Frequenti",
+    "h2": "FAQ su Risolutore di Anagrammi e Generatore di Parole",
+    "lead": "Risposte chiare alle domande più diffuse su come anagrammare e usare il nostro strumento.",
+    "q1": "Come funziona il risolutore di anagrammi?",
+    "a1": "Il nostro strumento gratuito calcola gli istogrammi di frequenza delle lettere su oltre 260.000 parole. All'inserimento, confronta i caratteri in meno di 5 millisecondi per restituire ogni soluzione valida.",
+    "q2": "Quali parole posso formare con queste lettere?",
+    "a2": "Digita le tue lettere nella casella superiore. Il risolutore calcola tutte le permutazioni e sottoparole, ordinate per lunghezza e con punteggio calcolato.",
+    "q3": "Cos'è un anagramma puro?",
+    "a3": "Un anagramma puro o completo impiega tutte le lettere fornite senza scartarne alcuna. Esempi: Attore ↔ Teatro, Calendario ↔ Locandiera.",
+    "q4": "Posso risolvere anagrammi di più parole?",
+    "a4": "Certamente! Clicca sulla scheda 'Più Parole'. L'algoritmo ricorsivo calcola combinazioni di 2 e 3 parole a partire dalla tua frase.",
+    "q5": "Come posso cercare parole con lettere mancanti?",
+    "a5": "Usa il punto interrogativo (?) o premi Spazio nella ricerca per inserire un jolly. Per le parole crociate usa la scheda Schema.",
+    "q6": "Quali punteggi sono mostrati?",
+    "a6": "Ogni scheda parola riporta il punteggio Scrabble (SCR) e Words With Friends (WWF), con possibilità di ordinamento personalizzato.",
+    "q7": "Come trovo una parola da 7 lettere?",
+    "a7": "Inserisci 7 lettere e spunta 'Usa TUTTE le lettere' nei filtri oppure seleziona la pillola '7 Lettere' nella barra risultati.",
+    "q8": "Quali dizionari sono disponibili?",
+    "a8": "Puoi scegliere tra il dizionario internazionale SOWPODS / CSW (267.000 parole), TWL06 (83.000 parole) ed ENABLE1 (172.000 parole).",
+    "q9": "Questo risolutore è gratuito?",
+    "a9": "Sì, AnagramSolver PRO è completamente gratis, senza pubblicità fastidiose, senza registrazione e senza limiti di ricerca."
+  },
+  "footer": {
+    "title": "AnagramSolver PRO • Trova Parole Online Gratuito",
+    "subtitle": "Il risolutore di anagrammi più rapido per Scarabeo, Scrabble e parole crociate.",
+    "howItWorks": "Come Funziona",
+    "faq": "FAQ",
+    "backToTop": "Torna Su ↑",
+    "privacy": "Informativa sulla Privacy",
+    "terms": "Termini di Servizio",
+    "disclaimer": "Marchi e Uso Legittimo",
+    "cookies": "Politica sui Cookie",
+    "disclaimerNotice": "SCRABBLE® è un marchio registrato di Hasbro e Mattel. WORDS WITH FRIENDS™ è un marchio di Zynga. AnagramSolver PRO è uno strumento indipendente di consultazione.",
+    "copyright": "© 2026 AnagramSolver PRO • Tutti i lessici forniti per scopi educativi e di consultazione."
+  },
+  "modals": {
+    "definitions": "Definizioni",
+    "pronounce": "Pronuncia Parola",
+    "close": "Chiudi",
+    "saveWord": "Salva Parola",
+    "wordSaved": "Parola Salvata",
+    "tileBreakdown": "Dettaglio Punti per Lettera",
+    "savedWordsTitle": "Parole Salvate",
+    "clearAll": "Elimina Tutto",
+    "exportSaved": "Esporta Lista",
+    "noSavedWords": "Nessuna parola ancora salvata. Clicca sulla stella accanto a una parola per aggiungerla qui!"
+  }
+}

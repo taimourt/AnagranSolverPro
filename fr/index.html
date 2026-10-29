@@ -1,0 +1,991 @@
+<!doctype html>
+<html lang="fr" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Solveur d'Anagrammes Gratuit & Recherche de Mots | Déchiffrer des Lettres</title>
+    <meta name="description" content="Solveur d'anagrammes rapide et gratuit. Déchiffrez vos lettres pour trouver tous les mots possibles, résolvez des anagrammes à plusieurs mots et calculez vos points pour le Scrabble et les jeux de lettres." />
+    <meta name="keywords" content="solveur anagramme, anagrammes, trouver des mots, déchiffrer lettres, générateur d'anagrammes, scrabble francophone, dictionnaire scrabble, mots croisés, joker scrabble, mots de 7 lettres scrabble, tricher scrabble, mots avec ces lettres" />
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%23f59e0b'/><text x='50' y='68' font-family='sans-serif' font-size='60' font-weight='bold' text-anchor='middle' fill='%2378350f'>A</text></svg>" />
+    <link rel="canonical" href="https://anagramsolverpro.com/fr/" />
+    <link rel="alternate" hreflang="x-default" href="https://anagramsolverpro.com/" />
+    <link rel="alternate" hreflang="en" href="https://anagramsolverpro.com/" />
+    <link rel="alternate" hreflang="es" href="https://anagramsolverpro.com/es/" />
+    <link rel="alternate" hreflang="fr" href="https://anagramsolverpro.com/fr/" />
+    <link rel="alternate" hreflang="de" href="https://anagramsolverpro.com/de/" />
+    <link rel="alternate" hreflang="it" href="https://anagramsolverpro.com/it/" />
+    <link rel="alternate" hreflang="pt" href="https://anagramsolverpro.com/pt/" />
+    <link rel="stylesheet" href="/src/style.css" />
+
+    <!-- Schema.org Structured Data: FAQPage & WebApplication -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebApplication",
+          "name": "AnagramSolver PRO",
+          "url": "https://anagramsolverpro.com/fr/",
+          "applicationCategory": "GameApplication, ReferenceApplication",
+          "operatingSystem": "All",
+          "description": "Solveur d'anagrammes rapide et gratuit. Déchiffrez vos lettres pour trouver tous les mots possibles, résolvez des anagrammes à plusieurs mots et calculez vos points pour le Scrabble et les jeux de lettres.",
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+          }
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Comment fonctionne le solveur d'anagrammes ?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Notre outil utilise des histogrammes de fréquences de lettres précalculés sur plus de 260 000 mots. L'algorithme compare vos lettres en moins de 5 millisecondes pour identifier toutes les solutions valides."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Quels mots puis-je faire avec mes lettres ?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Entrez simplement vos lettres dans la barre de recherche. L'outil génère l'ensemble des sous-mots et anagrammes complètes, triés par longueur et accompagnés de leurs points officiels."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Qu'est-ce qu'une anagramme exacte ?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Une anagramme exacte (ou pure) utilise l'intégralité de vos lettres sans en laisser aucune de côté. Exemples célèbres : Manoir ↔ Romain, Soigneur ↔ Guérison."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Peut-on trouver des anagrammes de plusieurs mots ?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Oui ! Cliquez sur l'onglet 'Mots Multiples'. Notre moteur récursif explore toutes les combinaisons possibles de 2 ou 3 mots à partir de votre texte."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Comment chercher un mot avec des lettres manquantes ?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Insérez un point d'interrogation (?) ou appuyez sur Espace pour symboliser un joker dans la recherche principale. Pour une grille de mots croisés, utilisez l'onglet Motif."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Quels points rapportent les mots trouvés ?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Chaque mot affiche les points Scrabble (SCR) et Words With Friends (WWF). Vous pouvez trier vos résultats par valeur maximale dans les filtres."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Comment trouver un mot de 7 lettres (Scrabble / Bingo) ?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Saisissez vos 7 lettres et activez l'option 'Utiliser TOUTES les lettres' ou cliquez sur le filtre rapide '7 Lettres'. Poser vos 7 lettres rapporte un bonus de 50 points au Scrabble."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Quels sont les dictionnaires proposés ?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Vous disposez du lexique international SOWPODS / CSW (267 000 mots), du lexique TWL06 (83 000 mots) et du lexique ENABLE1 (172 000 mots)."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Ce solveur d'anagrammes est-il gratuit ?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Oui, AnagramSolver PRO est 100 % gratuit, sans inscription, sans publicité intrusive et sans aucune limite d'utilisation."
+              }
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+  </head>
+  <body>
+    <!-- Canvas for Celebratory Confetti -->
+    <canvas id="confetti-canvas"></canvas>
+
+    <div class="app-container">
+      <!-- Header -->
+      <header class="app-header">
+        <div class="header-content">
+          <div class="brand-wrapper" id="brand-home-btn" title="Reset to Home">
+            <div class="brand-tiles">
+              <div class="brand-mini-tile">A</div>
+              <div class="brand-mini-tile">S</div>
+              <div class="brand-mini-tile">P</div>
+            </div>
+            <div class="brand-text">
+              <h1>AnagramSolver <span class="pro-badge">PRO</span></h1>
+            </div>
+          </div>
+
+          <!-- Main Navigation Tabs -->
+          <nav class="nav-tabs" role="tablist">
+            <button class="tab-btn active" id="tab-btn-single" data-tab="single" role="tab" aria-selected="true">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="m4.93 4.93 4.24 4.24"/><path d="m14.83 9.17 4.24-4.24"/><path d="m14.83 14.83 4.24 4.24"/><path d="m9.17 14.83-4.24 4.24"/></svg>
+              <span>Anagrammes</span>
+            </button>
+            <button class="tab-btn" id="tab-btn-multi" data-tab="multi" role="tab" aria-selected="false">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19.5 12.572 12 20l-7.5-7.428A5 5 0 1 1 12 6.006a5 5 0 1 1 7.5 6.572Z"/><path d="M12 6v14"/></svg>
+              <span>Mots Multiples</span>
+            </button>
+            <button class="tab-btn" id="tab-btn-pattern" data-tab="pattern" role="tab" aria-selected="false">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7V4h16v3"/><path d="M9 20h6"/><path d="M12 4v16"/></svg>
+              <span>Motif</span>
+            </button>
+            <button class="tab-btn" id="tab-btn-game" data-tab="game" role="tab" aria-selected="false">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+              <span>Arène</span>
+              <span class="tab-badge">Jouer</span>
+            </button>
+            <button class="tab-btn" id="tab-btn-two-letters" data-tab="two-letters" role="tab" aria-selected="false">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1-2.5-2.5Z"/><path d="M6 6h10"/><path d="M6 10h10"/></svg>
+              <span>Mots de 2 Lettres</span>
+            </button>
+          </nav>
+
+          <!-- Utilities -->
+          <div class="header-actions">
+            <!-- Language Selector Dropdown -->
+            <div class="lang-selector-dropdown" id="lang-selector-dropdown">
+              <button class="lang-selector-btn" id="lang-menu-btn" aria-haspopup="true" aria-expanded="false" title="Switch Language" aria-label="Switch Language">
+                <span class="lang-flag" id="current-lang-flag">🇫🇷</span>
+                <span class="lang-code" id="current-lang-code">FR</span>
+                <svg class="dropdown-caret" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+              </button>
+              <div class="lang-menu" id="lang-menu" role="menu">
+                <a href="/" class="lang-option" data-lang="en" role="menuitem">
+                  <span class="option-flag">🇺🇸</span>
+                  <div class="option-details">
+                    <span class="option-name">English</span>
+                    <span class="option-sub">English</span>
+                  </div>
+                  <svg class="check-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                </a>
+                <a href="/es/" class="lang-option" data-lang="es" role="menuitem">
+                  <span class="option-flag">🇪🇸</span>
+                  <div class="option-details">
+                    <span class="option-name">Español</span>
+                    <span class="option-sub">Spanish</span>
+                  </div>
+                  <svg class="check-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                </a>
+                <a href="/fr/" class="lang-option active" data-lang="fr" role="menuitem">
+                  <span class="option-flag">🇫🇷</span>
+                  <div class="option-details">
+                    <span class="option-name">Français</span>
+                    <span class="option-sub">French</span>
+                  </div>
+                  <svg class="check-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                </a>
+                <a href="/de/" class="lang-option" data-lang="de" role="menuitem">
+                  <span class="option-flag">🇩🇪</span>
+                  <div class="option-details">
+                    <span class="option-name">Deutsch</span>
+                    <span class="option-sub">German</span>
+                  </div>
+                  <svg class="check-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                </a>
+                <a href="/it/" class="lang-option" data-lang="it" role="menuitem">
+                  <span class="option-flag">🇮🇹</span>
+                  <div class="option-details">
+                    <span class="option-name">Italiano</span>
+                    <span class="option-sub">Italian</span>
+                  </div>
+                  <svg class="check-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                </a>
+                <a href="/pt/" class="lang-option" data-lang="pt" role="menuitem">
+                  <span class="option-flag">🇵🇹</span>
+                  <div class="option-details">
+                    <span class="option-name">Português</span>
+                    <span class="option-sub">Portuguese</span>
+                  </div>
+                  <svg class="check-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                </a>
+              </div>
+            </div>
+
+            <!-- Sound FX Toggle -->
+            <button class="icon-btn" id="sound-toggle-btn" title="Toggle Sound FX" aria-label="Toggle Sound FX">
+              <svg id="sound-icon-on" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/></svg>
+              <svg id="sound-icon-off" class="hidden" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display:none;"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><line x1="23" y1="9" x2="17" y2="15"/><line x1="17" y1="9" x2="23" y2="15"/></svg>
+            </button>
+
+            <!-- Theme Toggle -->
+            <button class="icon-btn" id="theme-toggle-btn" title="Toggle Light/Dark Theme" aria-label="Toggle Theme">
+              <svg id="theme-icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></svg>
+              <svg id="theme-icon-moon" class="hidden" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display:none;"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
+            </button>
+
+            <!-- Saved Words Drawer Button -->
+            <button class="icon-btn" id="saved-words-btn" title="Saved Words" aria-label="Saved Words">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <span class="btn-badge" id="saved-badge">0</span>
+            </button>
+          </div>
+        </div>
+      </header>
+
+      <!-- Main Content Container -->
+      <main id="main-content">
+        <!-- TAB 1: Single-Word Anagram Solver -->
+        <section id="tab-content-single" class="tab-pane active">
+          <!-- Hero Banner -->
+          <div class="hero-section">
+            <h1 class="hero-title">Solveur d'Anagrammes Gratuit & Générateur de Mots</h1>
+            <p class="hero-subtitle">
+              Vous cherchez <em>quels mots faire avec ces lettres</em> ou avez besoin d'un <strong>chercheur de mots</strong> instantané ? Saisissez vos lettres pour <strong>déchiffrer des anagrammes</strong>, compléter des mots avec lettres manquantes et marquer un maximum de points au Scrabble.
+            </p>
+          </div>
+
+          <!-- Interactive Search Card -->
+          <div class="search-card">
+            <!-- 3D Interactive Tile Rack Visualizer -->
+            <div class="tile-rack-container">
+              <div class="tile-rack-shelf" id="rack-shelf" title="Click any tile to remove it from the rack">
+                <span class="rack-placeholder" id="rack-placeholder">Saisissez vos lettres ci-dessous pour garnir le chevalet</span>
+              </div>
+            </div>
+
+            <!-- Main Input & Solve Bar -->
+            <div class="search-input-group">
+              <div class="input-wrapper">
+                <input
+                  type="text"
+                  id="rack-input"
+                  class="main-input"
+                  placeholder="Entrez vos lettres pour trouver tous les mots (utilisez '?' ou espace pour un joker)..."
+                  autocomplete="off"
+                  autocorrect="off"
+                  autocapitalize="characters"
+                  spellcheck="false"
+                  maxlength="20"
+                />
+                <button class="clear-input-btn" id="clear-rack-btn" title="Effacer" aria-label="Effacer" style="display:none;">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+                </button>
+              </div>
+
+              <!-- Solve Button -->
+              <button class="btn-primary" id="solve-btn">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+                <span>Résoudre les Anagrammes</span>
+              </button>
+
+              <!-- Advanced Options Toggle -->
+              <button class="btn-secondary" id="toggle-options-btn">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="4" x2="4" y1="21" y2="14"/><line x1="4" x2="4" y1="10" y2="3"/><line x1="12" x2="12" y1="21" y2="12"/><line x1="12" x2="12" y1="8" y2="3"/><line x1="20" x2="20" y1="21" y2="16"/><line x1="20" x2="20" y1="12" y2="3"/><line x1="1" x2="7" y1="14" y2="14"/><line x1="9" x2="15" y1="8" y2="8"/><line x1="17" x2="23" y1="16" y2="16"/></svg>
+                <span>Filtres</span>
+                <span class="btn-badge" id="active-filters-badge" style="display:none;">0</span>
+              </button>
+            </div>
+
+            <!-- Quick Rack Actions & Tips -->
+            <div class="quick-rack-controls">
+              <div class="tip-text">
+                <span>Astuce : Appuyez sur Espace pour insérer une lettre joker vierge</span>
+              </div>
+              <div class="rack-btns">
+                <button class="btn-chip" id="shuffle-rack-btn" title="Shuffle rack order">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 18h1.4c1.3 0 2.5-.6 3.3-1.7l6.1-8.6c.7-1.1 2-1.7 3.3-1.7H22"/><path d="m18 2 4 4-4 4"/><path d="M2 6h1.9c1.5 0 2.9.9 3.6 2.2"/><path d="M22 18h-5.9c-1.3 0-2.6-.7-3.3-1.8l-.5-.8"/><path d="m18 14 4 4-4 4"/></svg>
+                  <span>Mélanger</span>
+                </button>
+                <button class="btn-chip" id="random-rack-btn" title="Deal 7 random tiles from official tile bag">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="18" height="18" x="3" y="3" rx="2"/><circle cx="8" cy="8" r="1.5"/><circle cx="16" cy="16" r="1.5"/><circle cx="12" cy="12" r="1.5"/></svg>
+                  <span>Tirage Aléatoire</span>
+                </button>
+              </div>
+            </div>
+
+            <!-- Advanced Options Drawer -->
+            <div class="advanced-panel" id="advanced-panel">
+              <div class="filter-grid">
+                <!-- Dictionary Selection -->
+                <div class="filter-field">
+                  <label for="filter-dict">Lexique de Jeu & Dictionnaire</label>
+                  <select id="filter-dict" class="field-select">
+                    <option value="enable1" selected>Words With Friends (ENABLE1 - 172k mots)</option>
+                    <option value="twl06">Scrabble Tournoi Nord-Américain (TWL06 - 83k mots)</option>
+                    <option value="sowpods">Scrabble International / SOWPODS (267k mots)</option>
+                    <option value="common">Vocabulaire Courant Usuel (20 000 mots)</option>
+                  </select>
+                </div>
+
+                <!-- Sort Order -->
+                <div class="filter-field">
+                  <label for="filter-sort">Trier les Résultats Par</label>
+                  <select id="filter-sort" class="field-select">
+                    <option value="length-desc" selected>Longueur de Mot (Plus Longs d'Abord)</option>
+                    <option value="scrabble">Points Scrabble (Décroissant)</option>
+                    <option value="wwf">Points Words With Friends (Décroissant)</option>
+                    <option value="length-asc">Longueur de Mot (Plus Courts d'Abord)</option>
+                    <option value="alpha">Alphabétique (A - Z)</option>
+                  </select>
+                </div>
+
+                <!-- Starts With -->
+                <div class="filter-field">
+                  <label for="filter-starts-with">Commence Par</label>
+                  <input type="text" id="filter-starts-with" class="field-input" placeholder="e.g. RE" maxlength="10" />
+                </div>
+
+                <!-- Ends With -->
+                <div class="filter-field">
+                  <label for="filter-ends-with">Se Termine Par</label>
+                  <input type="text" id="filter-ends-with" class="field-input" placeholder="e.g. ING" maxlength="10" />
+                </div>
+
+                <!-- Contains Substring -->
+                <div class="filter-field">
+                  <label for="filter-contains">Contient la Sous-chaîne</label>
+                  <input type="text" id="filter-contains" class="field-input" placeholder="e.g. ST" maxlength="10" />
+                </div>
+
+                <!-- Exclude Letters -->
+                <div class="filter-field">
+                  <label for="filter-exclude">Exclure les Lettres</label>
+                  <input type="text" id="filter-exclude" class="field-input" placeholder="e.g. X, Z" maxlength="15" />
+                </div>
+
+                <!-- Min Length -->
+                <div class="filter-field">
+                  <label for="filter-min-len">Longueur Minimale</label>
+                  <select id="filter-min-len" class="field-select">
+                    <option value="2" selected>2 Letters</option>
+                    <option value="3">3 Letters</option>
+                    <option value="4">4 Letters</option>
+                    <option value="5">5 Letters</option>
+                    <option value="6">6 Letters</option>
+                    <option value="7">7 Letters</option>
+                  </select>
+                </div>
+
+                <!-- Max Length -->
+                <div class="filter-field">
+                  <label for="filter-max-len">Longueur Maximale</label>
+                  <select id="filter-max-len" class="field-select">
+                    <option value="15" selected>15 Letters (Board Max)</option>
+                    <option value="12">12 Letters</option>
+                    <option value="10">10 Letters</option>
+                    <option value="8">8 Letters</option>
+                    <option value="7">7 Letters</option>
+                    <option value="6">6 Letters</option>
+                  </select>
+                </div>
+              </div>
+
+              <!-- Checkbox Toggles -->
+              <div class="filter-toggles">
+                <label class="toggle-item">
+                  <input type="checkbox" id="filter-all-letters" />
+                  <span>Utiliser TOUTES les lettres (Anagrammes Pures)</span>
+                </label>
+                <button class="btn-chip" id="reset-filters-btn">Réinitialiser les Filtres</button>
+              </div>
+
+              <!-- Regional Dictionary Notice -->
+              <div class="regional-dict-note">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
+                <span>Dictionnaires Internationaux : Sélectionnez le lexique international SOWPODS / CSW pour les tournois ou ENABLE1 / TWL06 pour les parties classiques.</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Results Section -->
+          <div class="results-container" id="results-container">
+            <!-- Toolbar Stats & Actions -->
+            <div class="results-toolbar" id="results-toolbar" style="display:none;">
+              <div class="results-summary">
+                <span>Found <span class="stats-highlight" id="stat-word-count">0</span> words in <span class="time-badge" id="stat-time">0ms</span></span>
+                <span class="kbd-badge" id="stat-dict-name">ENABLE1</span>
+              </div>
+              <div class="toolbar-actions">
+                <button class="btn-chip" id="copy-all-btn" title="Copy all results to clipboard">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="14" height="14" x="8" y="8" rx="2" ry="2"/><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"/></svg>
+                  <span>Tout Copier</span>
+                </button>
+                <button class="btn-chip" id="export-csv-btn" title="Download words as CSV">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" x2="12" y1="15" y2="3"/></svg>
+                  <span>Exporter CSV</span>
+                </button>
+              </div>
+            </div>
+
+            <!-- Quick Length Pills -->
+            <div class="length-filter-pills" id="length-pills" style="display:none;">
+              <!-- Dynamically generated length pill chips -->
+            </div>
+
+            <!-- Groups Accordion Container -->
+            <div id="results-groups">
+              <!-- Empty State by default -->
+              <div class="empty-state" id="initial-empty-state">
+                <svg class="empty-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect width="18" height="18" x="3" y="3" rx="2"/><path d="m9 9 6 6"/><path d="m15 9-6 6"/></svg>
+                <h3 class="empty-title">Prêt à Déchiffrer</h3>
+                <p class="empty-desc">Entrez vos lettres dans la barre ci-dessus ou cliquez sur Tirage Aléatoire pour tester un tirage de 7 lettres.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- TAB 2: Multi-Word Anagram Solver -->
+        <section id="tab-content-multi" class="tab-pane" style="display:none;">
+          <div class="hero-section">
+            <h2 class="hero-title">Générateur d'Anagrammes à Plusieurs Mots</h2>
+            <p class="hero-subtitle">
+              Transformez des noms et des phrases en anagrammes spirituelles et amusantes à mots multiples.
+            </p>
+          </div>
+
+          <div class="search-card">
+            <div class="search-input-group">
+              <div class="input-wrapper">
+                <input
+                  type="text"
+                  id="multi-input"
+                  class="main-input"
+                  placeholder="Phrase ou Nom - ex. ASTRONOME ou CLINT EASTWOOD"
+                  autocomplete="off"
+                  spellcheck="false"
+                  maxlength="25"
+                />
+              </div>
+              <button class="btn-primary" id="multi-solve-btn">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+                <span>Trouver des Phrases</span>
+              </button>
+            </div>
+
+            <div class="quick-rack-controls">
+              <div class="tip-text">
+                <span>Génère des combinaisons exactes de 2 à 3 mots avec toutes les lettres</span>
+              </div>
+              <div class="rack-btns">
+                <select id="multi-max-words" class="field-select" style="height:34px; font-size:0.8rem;">
+                  <option value="2" selected>Up to 2 Words</option>
+                  <option value="3">Up to 3 Words</option>
+                </select>
+                <select id="multi-min-len" class="field-select" style="height:34px; font-size:0.8rem;">
+                  <option value="3" selected>Min Word Length: 3</option>
+                  <option value="4">Min Word Length: 4</option>
+                </select>
+              </div>
+            </div>
+          </div>
+
+          <div class="results-container" id="multi-results-container">
+            <div class="empty-state">
+              <svg class="empty-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 20h9"/><path d="M16.5 3.5a2.12 2.12 0 0 1 3 3L7 19l-4 1 1-4Z"/></svg>
+              <h3 class="empty-title">Entrez une Phrase à Anagrammer</h3>
+              <p class="empty-desc">Testez des noms de personnes ou des phrases pour découvrir toutes les combinaisons possibles.</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- TAB 3: Pattern / Crossword Helper -->
+        <section id="tab-content-pattern" class="tab-pane" style="display:none;">
+          <div class="hero-section">
+            <h2 class="hero-title">Recherche de Motifs & Mots Croisés</h2>
+            <p class="hero-subtitle">
+              Résolvez vos grilles de mots croisés, mots fléchés ou Wordle. Utilisez des points (.) ou des points d'interrogation (?) pour les lettres inconnues.
+            </p>
+          </div>
+
+          <div class="search-card">
+            <div class="search-input-group">
+              <div class="input-wrapper">
+                <input
+                  type="text"
+                  id="pattern-input"
+                  class="main-input"
+                  placeholder="Motif - ex. C..T ou P??E ou ??ZZ??"
+                  autocomplete="off"
+                  spellcheck="false"
+                  maxlength="15"
+                />
+              </div>
+              <button class="btn-primary" id="pattern-solve-btn">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+                <span>Trouver les Mots</span>
+              </button>
+            </div>
+
+            <div class="quick-rack-controls">
+              <div class="tip-text">
+                <span>Contrainte facultative de lettres disponibles :</span>
+              </div>
+              <div style="flex:1; max-width:280px;">
+                <input type="text" id="pattern-rack-constraint" class="field-input" placeholder="Doit utiliser uniquement ces lettres (optionnel)" style="height:36px;" />
+              </div>
+            </div>
+          </div>
+
+          <div class="results-container" id="pattern-results-container">
+            <div class="empty-state">
+              <svg class="empty-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 7V4h16v3"/><path d="M9 20h6"/><path d="M12 4v16"/></svg>
+              <h3 class="empty-title">Rechercher par Schéma</h3>
+              <p class="empty-desc">Entrez un modèle comme C..T pour trouver des mots correspondants.</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- TAB 4: Anagram Arena Game Mode -->
+        <section id="tab-content-game" class="tab-pane" style="display:none;">
+          <div class="hero-section">
+            <h2 class="hero-title">Arène d'Anagrammes & Entraînement</h2>
+            <p class="hero-subtitle">
+              Déchiffrez le mot mystère avant la fin du compte à rebours ! Cliquez sur les lettres ou tapez au clavier.
+            </p>
+          </div>
+
+          <div class="game-container">
+            <!-- Game Stats Header -->
+            <div class="game-header-card">
+              <div class="game-stat">
+                <span class="stat-label">Difficulté</span>
+                <select id="game-difficulty-select" class="field-select" style="height:32px; font-weight:700;">
+                  <option value="easy">Casual (4-5 letters)</option>
+                  <option value="medium" selected>Standard (6-7 letters)</option>
+                  <option value="hard">Master (8+ letters)</option>
+                </select>
+              </div>
+              <div class="game-stat">
+                <span class="stat-label">Score</span>
+                <span class="stat-val" id="game-score-val">0</span>
+              </div>
+              <div class="game-stat">
+                <span class="stat-label">Série</span>
+                <span class="stat-val" id="game-streak-val">🔥 0</span>
+              </div>
+              <div class="game-stat">
+                <span class="stat-label">Temps</span>
+                <span class="stat-val" id="game-timer-val">0s</span>
+              </div>
+            </div>
+
+            <!-- Game Board Card -->
+            <div class="game-board-card">
+              <!-- Target Guess Slots -->
+              <div class="target-slots-wrap" id="game-guess-slots">
+                <!-- Dynamically populated guess slots -->
+              </div>
+
+              <!-- Available Scrambled Tiles -->
+              <div class="scrambled-tiles-rack" id="game-scrambled-rack">
+                <!-- Dynamically populated tiles -->
+              </div>
+
+              <!-- Game Actions -->
+              <div class="game-actions-bar">
+                <button class="btn-secondary" id="game-clear-btn">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+                  <span>Effacer</span>
+                </button>
+                <button class="btn-secondary" id="game-shuffle-btn">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 18h1.4c1.3 0 2.5-.6 3.3-1.7l6.1-8.6c.7-1.1 2-1.7 3.3-1.7H22"/><path d="m18 2 4 4-4 4"/><path d="M2 6h1.9c1.5 0 2.9.9 3.6 2.2"/><path d="M22 18h-5.9c-1.3 0-2.6-.7-3.3-1.8l-.5-.8"/><path d="m18 14 4 4-4 4"/></svg>
+                  <span>Mélanger</span>
+                </button>
+                <button class="btn-secondary" id="game-hint-btn">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" x2="12.01" y1="17" y2="17"/></svg>
+                  <span>Indice (<span id="game-hints-count">2</span>)</span>
+                </button>
+                <button class="btn-primary" id="game-next-btn">
+                  <span>Mot Suivant</span>
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+                </button>
+              </div>
+
+              <!-- Hint Box -->
+              <div class="hint-box" id="game-hint-box" style="display:none;">
+                <!-- Populated with hint text -->
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- TAB 5: 2-Letter Scrabble & WWF Cheat Sheet -->
+        <section id="tab-content-two-letters" class="tab-pane" style="display:none;">
+          <div class="hero-section">
+            <h2 class="hero-title">Aide-Mémoire Officiel des Mots de 2 Lettres</h2>
+            <p class="hero-subtitle">
+              L'arme absolue des champions de Scrabble. Découvrez tous les mots de 2 lettres autorisés, leurs valeurs et définitions.
+            </p>
+          </div>
+
+          <div class="search-card">
+            <div style="display:flex; justify-content:space-between; align-items:center; gap:1rem; flex-wrap:wrap;">
+              <input type="text" id="two-letter-search" class="field-input" placeholder="Rechercher un mot de 2 lettres ou une définition..." style="flex:1; max-width:400px;" />
+              <div class="rack-btns">
+                <button class="btn-chip active" id="sort-2letter-alpha">Tri : A-Z</button>
+                <button class="btn-chip" id="sort-2letter-points">Tri : Meilleurs Points</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="word-grid" id="two-letter-grid" style="padding:0;">
+            <!-- Dynamically populated 2-letter word cards -->
+          </div>
+        </section>
+      </main>
+
+      <!-- Structured SEO Sections: How It Works, Features, Educational Guide, & FAQ -->
+      <section class="how-it-works-section" id="how-it-works">
+        <div class="section-eyebrow">Solveur & Chercheur de Mots Immédiat</div>
+        <h2 class="section-h2">Comment Former un Mot avec des Lettres Données (3 Étapes)</h2>
+        <p class="section-lead">
+          Que vous ayez besoin d'un outil rapide pour déchiffrer des lettres ou trouver le mot parfait au Scrabble, notre solveur calcule chaque combinaison en quelques millisecondes.
+        </p>
+
+        <div class="steps-grid">
+          <!-- Step 1 -->
+          <div class="step-card">
+            <div class="step-badge">1</div>
+            <h3 class="step-title">1. Saisissez vos Lettres</h3>
+            <p class="step-desc">
+              Tapez les lettres de votre chevalet dans le champ de recherche. Vous vous demandez quels mots former avec ces lettres ? Utilisez '?' ou la barre d'espace pour ajouter un joker.
+            </p>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="step-card">
+            <div class="step-badge">2</div>
+            <h3 class="step-title">2. Filtrez par Longueur & Jokers</h3>
+            <p class="step-desc">
+              Vous visez un mot de 7 lettres pour réussir un Scrabble (50 points bonus), ou un mot de 6 lettres ? Définissez la taille minimale et maximale ou utilisez des préfixes et suffixes.
+            </p>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="step-card">
+            <div class="step-badge">3</div>
+            <h3 class="step-title">3. Formez des Mots Immédiatement</h3>
+            <p class="step-desc">
+              Cliquez sur Résoudre pour afficher tous les mots classés par nombre de lettres et points de jeu. Cliquez sur un mot pour voir sa définition et écouter sa prononciation.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Feature Highlights Section -->
+      <section class="features-highlight-section" style="margin: 3.5rem 0 2rem 0;">
+        <div class="section-eyebrow" style="text-align:center;">Fonctionnalités Clés</div>
+        <h2 class="section-h2" style="text-align:center;">Capacités Avancées de Résolution de Mots</h2>
+        <p class="section-lead" style="text-align:center;">
+          Conçu pour vous aider à trouver tous les mots valides et optimiser vos coups stratégiques.
+        </p>
+
+        <div class="feature-cards-grid">
+          <div class="feature-seo-card">
+            <h4>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
+              <span>Chercheur de Mots de 7 Lettres (Scrabble)</span>
+            </h4>
+            <p>
+              Placer vos 7 lettres d'un coup rapporte 50 points de bonification. Notre filtre de 7 lettres identifie immédiatement les combinaisons gagnantes.
+            </p>
+          </div>
+
+          <div class="feature-seo-card">
+            <h4>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+              <span>Trouver des Mots avec Lettres Manquantes</span>
+            </h4>
+            <p>
+              Bloqué dans une grille de mots croisés ? Utilisez des jokers (?) ou l'onglet Motif pour compléter vos trous en quelques instants.
+            </p>
+          </div>
+
+          <div class="feature-seo-card">
+            <h4>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19.5 12.572 12 20l-7.5-7.428A5 5 0 1 1 12 6.006a5 5 0 1 1 7.5 6.572Z"/><path d="M12 6v14"/></svg>
+              <span>Anagrammes à Mots Multiples</span>
+            </h4>
+            <p>
+              Notre moteur calcule des anagrammes complètes découpées en plusieurs mots pour créer des phrases originales à partir de noms ou de titres.
+            </p>
+          </div>
+
+          <div class="feature-seo-card">
+            <h4>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+              <span>Dictionnaires Internationaux Tournoi</span>
+            </h4>
+            <p>
+              Bénéficiez de lexiques de référence vérifiés pour les compétitions officielles avec calcul exact des scores.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Educational Section: What is an Anagram? & Guide -->
+      <section class="educational-guide-section" style="margin: 3.5rem 0 2rem 0; background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: var(--radius-xl); padding: 2.25rem 2rem;">
+        <div class="section-eyebrow">Culture & Règles du Jeu</div>
+        <h2 class="section-h2">Qu'est-ce qu'une Anagramme ?</h2>
+        <div style="color: var(--text-secondary); font-size: 1rem; line-height: 1.7; display: flex; flex-direction: column; gap: 1rem;">
+          <p>
+            Une anagramme est un mot ou une phrase obtenu en transposant les lettres d'un autre mot ou d'une autre phrase, chaque lettre d'origine étant utilisée exactement une fois. Par exemple, 'chien' est l'anagramme de 'niche', et 'gare' donne 'rage'.
+          </p>
+          <p>
+            Pratiquées depuis l'Antiquité grecque, les anagrammes sont au cœur de tous les grands jeux de lettres (Scrabble, Boggle, Wordle, Mots Croisés). Savoir recombiner instantanément un tirage de lettres permet de dominer ses adversaires.
+          </p>
+          <div style="background: var(--bg-elevated); border-left: 3px solid var(--primary); padding: 1rem 1.25rem; border-radius: var(--radius-sm); margin: 0.5rem 0;">
+            <strong style="color: var(--text-primary); font-size: 1.05rem;">Pourquoi Choisir AnagramSolver PRO ?</strong>
+            <p style="margin-top: 0.35rem; font-size: 0.95rem;">
+              Contrairement aux sites anciens saturés de publicités intrusives, AnagramSolver PRO s'exécute côté client en moins de 5 millisecondes, sans aucune pub, avec un chevalet 3D tactile et un générateur de phrases complet.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQ Section (Long-Tail Questions & SEO Accordion) -->
+      <section class="faq-section" id="faq">
+        <div class="section-eyebrow" style="text-align:center;">Foire Aux Questions</div>
+        <h2 class="section-h2" style="text-align:center;">Questions Fréquentes sur le Solveur d'Anagrammes</h2>
+        <p class="section-lead" style="text-align:center;">
+          Réponses aux questions courantes pour déchiffrer des lettres et tirer le meilleur parti de notre dictionnaire.
+        </p>
+
+        <div class="faq-list">
+          <!-- FAQ 1 -->
+          <div class="faq-item active">
+            <button class="faq-question" type="button">
+              <span>Comment fonctionne le solveur d'anagrammes ?</span>
+              <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-answer">
+              <p>Notre outil utilise des histogrammes de fréquences de lettres précalculés sur plus de 260 000 mots. L'algorithme compare vos lettres en moins de 5 millisecondes pour identifier toutes les solutions valides.</p>
+            </div>
+          </div>
+
+          <!-- FAQ 2 -->
+          <div class="faq-item">
+            <button class="faq-question" type="button">
+              <span>Quels mots puis-je faire avec mes lettres ?</span>
+              <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-answer">
+              <p>Entrez simplement vos lettres dans la barre de recherche. L'outil génère l'ensemble des sous-mots et anagrammes complètes, triés par longueur et accompagnés de leurs points officiels.</p>
+            </div>
+          </div>
+
+          <!-- FAQ 3 -->
+          <div class="faq-item">
+            <button class="faq-question" type="button">
+              <span>Qu'est-ce qu'une anagramme exacte ?</span>
+              <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-answer">
+              <p>Une anagramme exacte (ou pure) utilise l'intégralité de vos lettres sans en laisser aucune de côté. Exemples célèbres : Manoir ↔ Romain, Soigneur ↔ Guérison.</p>
+            </div>
+          </div>
+
+          <!-- FAQ 4 -->
+          <div class="faq-item">
+            <button class="faq-question" type="button">
+              <span>Peut-on trouver des anagrammes de plusieurs mots ?</span>
+              <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-answer">
+              <p>Oui ! Cliquez sur l'onglet 'Mots Multiples'. Notre moteur récursif explore toutes les combinaisons possibles de 2 ou 3 mots à partir de votre texte.</p>
+            </div>
+          </div>
+
+          <!-- FAQ 5 -->
+          <div class="faq-item">
+            <button class="faq-question" type="button">
+              <span>Comment chercher un mot avec des lettres manquantes ?</span>
+              <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-answer">
+              <p>Insérez un point d'interrogation (?) ou appuyez sur Espace pour symboliser un joker dans la recherche principale. Pour une grille de mots croisés, utilisez l'onglet Motif.</p>
+            </div>
+          </div>
+
+          <!-- FAQ 6 -->
+          <div class="faq-item">
+            <button class="faq-question" type="button">
+              <span>Quels points rapportent les mots trouvés ?</span>
+              <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-answer">
+              <p>Chaque mot affiche les points Scrabble (SCR) et Words With Friends (WWF). Vous pouvez trier vos résultats par valeur maximale dans les filtres.</p>
+            </div>
+          </div>
+
+          <!-- FAQ 7 -->
+          <div class="faq-item">
+            <button class="faq-question" type="button">
+              <span>Comment trouver un mot de 7 lettres (Scrabble / Bingo) ?</span>
+              <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-answer">
+              <p>Saisissez vos 7 lettres et activez l'option 'Utiliser TOUTES les lettres' ou cliquez sur le filtre rapide '7 Lettres'. Poser vos 7 lettres rapporte un bonus de 50 points au Scrabble.</p>
+            </div>
+          </div>
+
+          <!-- FAQ 8 -->
+          <div class="faq-item">
+            <button class="faq-question" type="button">
+              <span>Quels sont les dictionnaires proposés ?</span>
+              <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-answer">
+              <p>Vous disposez du lexique international SOWPODS / CSW (267 000 mots), du lexique TWL06 (83 000 mots) et du lexique ENABLE1 (172 000 mots).</p>
+            </div>
+          </div>
+
+          <!-- FAQ 9 -->
+          <div class="faq-item">
+            <button class="faq-question" type="button">
+              <span>Ce solveur d'anagrammes est-il gratuit ?</span>
+              <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-answer">
+              <p>Oui, AnagramSolver PRO est 100 % gratuit, sans inscription, sans publicité intrusive et sans aucune limite d'utilisation.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer Section -->
+      <footer class="seo-guide-section" style="margin-top:4rem; border-top:1px solid var(--border-subtle); padding-top:2.5rem;">
+        <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:1rem; margin-bottom:1.5rem;">
+          <div>
+            <h4 style="font-family:var(--font-heading); font-size:1.15rem; color:var(--text-primary); margin-bottom:0.25rem;">
+              AnagramSolver PRO • Solveur de Mots Gratuit en Ligne
+            </h4>
+            <p style="color:var(--text-muted); font-size:0.85rem;">
+              Le générateur d'anagrammes le plus rapide pour le Scrabble, les mots croisés et les jeux de lettres.
+            </p>
+          </div>
+          <div style="display:flex; gap:1.25rem; font-size:0.85rem; flex-wrap:wrap;">
+            <a href="#how-it-works" style="color:var(--text-accent); text-decoration:none;">Comment ça Marche</a>
+            <a href="#faq" style="color:var(--text-accent); text-decoration:none;">FAQ</a>
+            <a href="#" id="footer-top-btn" style="color:var(--text-accent); text-decoration:none;">Haut de Page ↑</a>
+          </div>
+        </div>
+
+        <!-- Legal Navigation Links -->
+        <div class="footer-legal-links">
+          <a href="/privacy.html" class="footer-legal-link">Politique de Confidentialité</a>
+          <span style="color:var(--border-subtle);">&bull;</span>
+          <a href="/terms.html" class="footer-legal-link">Conditions d'Utilisation</a>
+          <span style="color:var(--border-subtle);">&bull;</span>
+          <a href="/disclaimer.html" class="footer-legal-link">Marques Déposées & Fair Use</a>
+          <span style="color:var(--border-subtle);">&bull;</span>
+          <a href="/cookies.html" class="footer-legal-link">Politique des Cookies & Stockage</a>
+        </div>
+
+        <div style="text-align:center; color:var(--text-muted); font-size:0.8rem; padding-top:1rem; border-top:1px solid var(--border-subtle); line-height:1.6;">
+          <p>
+            SCRABBLE® est une marque déposée de Mattel ou Hasbro. WORDS WITH FRIENDS™ est une marque de Zynga. AnagramSolver PRO est un outil de référence indépendant sans lien ni affiliation avec ces sociétés.
+          </p>
+          <p style="margin-top:0.4rem;">
+            © 2026 AnagramSolver PRO • Lexiques et dictionnaires fournis à des fins éducatives et de référence.
+          </p>
+        </div>
+      </footer>
+    </div>
+
+    <!-- Definition & Word Details Popover Modal -->
+    <div class="modal-overlay" id="definition-modal" role="dialog" aria-modal="true">
+      <div class="modal-card">
+        <div class="modal-header">
+          <div class="modal-title-wrap">
+            <span class="modal-word" id="modal-word-text">WORD</span>
+            <span class="modal-phonetic" id="modal-phonetic-text"></span>
+          </div>
+          <div style="display:flex; align-items:center; gap:0.5rem;">
+            <button class="icon-btn" id="modal-pronounce-btn" title="Prononcer le Mot" aria-label="Prononcer le Mot">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg>
+            </button>
+            <button class="icon-btn" id="modal-close-btn" title="Fermer" aria-label="Fermer">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+            </button>
+          </div>
+        </div>
+
+        <div class="modal-body" id="modal-body-content">
+          <!-- Point Breakdown Section -->
+          <div class="breakdown-section">
+            <div class="breakdown-title">Détail des Points par Lettre</div>
+            <div class="breakdown-tiles" id="modal-score-tiles">
+              <!-- Dynamically populated tiles -->
+            </div>
+            <div style="display:flex; gap:1rem; margin-top:0.75rem; font-size:0.85rem; font-family:var(--font-mono);">
+              <span>Scrabble: <strong id="modal-scrabble-total" style="color:var(--text-accent);">0 pts</strong></span>
+              <span>Words With Friends: <strong id="modal-wwf-total" style="color:var(--accent-emerald);">0 pts</strong></span>
+            </div>
+          </div>
+
+          <!-- Definitions List -->
+          <div id="modal-definitions-list">
+            <!-- Dynamically populated meanings -->
+          </div>
+        </div>
+
+        <div class="modal-footer">
+          <div class="external-links">
+            <a href="#" target="_blank" rel="noopener noreferrer" class="ext-link" id="modal-merriam-link">
+              <span>Merriam-Webster</span>
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" x2="21" y1="14" y2="3"/></svg>
+            </a>
+            <a href="#" target="_blank" rel="noopener noreferrer" class="ext-link" id="modal-wiktionary-link">
+              <span>Wiktionary</span>
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" x2="21" y1="14" y2="3"/></svg>
+            </a>
+          </div>
+          <button class="btn-chip" id="modal-save-word-btn">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <span id="modal-save-text">Sauvegarder</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Saved Words Drawer Modal -->
+    <div class="modal-overlay" id="saved-drawer" role="dialog" aria-modal="true">
+      <div class="modal-card">
+        <div class="modal-header">
+          <div class="modal-title-wrap">
+            <span class="modal-word">Mots Enregistrés</span>
+            <span class="modal-phonetic" id="saved-count-text">(0 words)</span>
+          </div>
+          <button class="icon-btn" id="saved-close-btn" title="Fermer" aria-label="Fermer">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+          </button>
+        </div>
+
+        <div class="modal-body" id="saved-words-list">
+          <!-- Dynamically populated saved words -->
+        </div>
+
+        <div class="modal-footer">
+          <button class="btn-chip" id="clear-saved-btn">Tout Effacer</button>
+          <button class="btn-chip" id="export-saved-btn">Exporter la Liste</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Toast Notification Container -->
+    <div class="toast-container" id="toast-container"></div>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

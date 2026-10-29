@@ -1,0 +1,187 @@
+{
+  "lang": "en",
+  "name": "English",
+  "nativeName": "English",
+  "flag": "🇺🇸",
+  "dir": "ltr",
+  "meta": {
+    "title": "Free Anagram Solver & Word Finder | Unscramble Letters Online",
+    "description": "Fast, free anagram solver and word finder. Unscramble letters to find all possible words, solve multi-word anagrams, find words with missing letters, and score for Scrabble & Words with Friends.",
+    "keywords": "anagram solver, anagram, anagrams, wordfinder, word finder, word solver, wordsolver, anagram finder, anagram solver free, anagram free solver, anagram generator, anagram maker, what words can i make with the following letters, words that can be made with the following letters, form a word with given letters, generate a word with these letters, 7 letter word using these letters, six letter word with these letters, anagram solver multiple words, anagram solver find all possible words, what is an anagram, anagram solver uk, wordsolver uk, the word finder"
+  },
+  "nav": {
+    "anagrams": "Anagrams",
+    "multiWord": "Multi-Word",
+    "pattern": "Pattern",
+    "arena": "Arena",
+    "playBadge": "Play",
+    "twoLetters": "2-Letter Sheet"
+  },
+  "hero": {
+    "title": "Fast, Free Anagram Solver & Word Generator",
+    "subtitle": "Wondering what words can I make with the following letters or need an instant wordfinder? Enter your letters to unscramble words, find words with missing letters, and look up words with letters for Scrabble, Words with Friends, and crossword puzzles."
+  },
+  "search": {
+    "rackPlaceholder": "Type letters below to load tiles onto the rack",
+    "inputPlaceholder": "Enter letters to find all possible words (use '?' for missing letters)...",
+    "solveBtn": "Solve Anagrams",
+    "filtersBtn": "Filters",
+    "tip": "Tip: Press Space to insert a wildcard blank tile",
+    "shuffleBtn": "Shuffle",
+    "randomRackBtn": "Random Rack",
+    "clearBtn": "Clear letters"
+  },
+  "filters": {
+    "lexiconLabel": "Game Lexicon & Regional Dictionary",
+    "sortLabel": "Sort Results By",
+    "startsWith": "Starts With",
+    "endsWith": "Ends With",
+    "contains": "Contains Substring",
+    "exclude": "Exclude Letters",
+    "minLen": "Min Word Length",
+    "maxLen": "Max Word Length",
+    "allLetters": "Must use ALL letters (Pure Anagrams only)",
+    "resetFilters": "Reset All Filters",
+    "regionalNote": "Regional Dictionaries: Select the UK dictionary (CSW21 / SOWPODS) to solve anagrams using British English spelling rules or US dictionary (TWL06) for North American tournament play."
+  },
+  "sortOptions": {
+    "lengthDesc": "Word Length (Longest First)",
+    "scrabble": "Scrabble Points (High to Low)",
+    "wwf": "Words With Friends Points (High to Low)",
+    "lengthAsc": "Word Length (Shortest First)",
+    "alpha": "Alphabetical (A - Z)"
+  },
+  "dictOptions": {
+    "enable1": "Words With Friends (ENABLE1 - 172k words)",
+    "twl06": "Scrabble US (TWL06 - 83k North American)",
+    "sowpods": "Scrabble UK / International (SOWPODS / CSW - 267k words)",
+    "common": "Everyday Common Words (20,000 standard)"
+  },
+  "results": {
+    "foundWords": "Found {count} words in {time}ms",
+    "copyAll": "Copy All",
+    "exportCsv": "Export CSV",
+    "copiedToast": "Copied {count} words to clipboard!",
+    "exportedToast": "Exported {count} words to CSV",
+    "emptyTitle": "Ready to Unscramble",
+    "emptyDesc": "Enter your letters in the search bar above or click Random Rack to test a 7-tile Scrabble hand."
+  },
+  "multiWord": {
+    "title": "Multi-Word Anagram Generator",
+    "subtitle": "Turn names, slogans, and phrases into hilarious or clever multi-word anagrams (e.g. Clint Eastwood → Old West Action).",
+    "placeholder": "Phrase or Name - e.g. ASTRONOMER or CLINT EASTWOOD",
+    "solveBtn": "Find Phrases",
+    "tip": "Maximum 2 to 3 words combinations generated using all exact letters",
+    "emptyTitle": "Enter a Phrase to Unscramble",
+    "emptyDesc": "Try names, sentences, or phrases to see all the multi-word anagrams that can be formed."
+  },
+  "pattern": {
+    "title": "Word Pattern & Crossword Finder",
+    "subtitle": "Solve Wordle, crosswords, and board hook letters. Use dots (.) or question marks (?) for blank spaces.",
+    "placeholder": "Pattern - e.g. C..T or S??LE or ??ZZ??",
+    "solveBtn": "Find Matches",
+    "tip": "Optional rack letters constraint:",
+    "constraintPlaceholder": "Must use only these letters (optional)",
+    "emptyTitle": "Find Words by Pattern",
+    "emptyDesc": "Type a pattern like C..T to find words like CHAT, COAT, CART, COST."
+  },
+  "arena": {
+    "title": "Anagram Arena & Jumble Trainer",
+    "subtitle": "Unscramble the mystery tiles before the clock runs out! Click tiles or type on your keyboard to solve.",
+    "difficulty": "Difficulty",
+    "score": "Score",
+    "streak": "Streak",
+    "time": "Time",
+    "clearBtn": "Clear",
+    "shuffleBtn": "Shuffle",
+    "hintBtn": "Hint",
+    "nextBtn": "Next Word"
+  },
+  "twoLetter": {
+    "title": "Official 2-Letter Words Cheat Sheet",
+    "subtitle": "Master the secret weapon of Scrabble & Words With Friends champions. Learn every legal 2-letter word, point values, and definitions.",
+    "searchPlaceholder": "Search 2-letter words or definitions (e.g. QI, ZA)...",
+    "sortAlpha": "Sort: A-Z",
+    "sortPoints": "Sort: Highest Points"
+  },
+  "howItWorks": {
+    "eyebrow": "Instant Word Finder & Solver",
+    "h2": "How to Form a Word with Given Letters (3 Easy Steps)",
+    "lead": "Whether you need a quick tool to unscramble for me or want to look up words with letters to dominate Scrabble and Words With Friends, our free anagram finder generates every possible word in milliseconds.",
+    "step1Title": "Enter Your Letters",
+    "step1Desc": "Type your rack of tiles or scrambled letters into the search input. Wondering what words can I make with the following letters? Enter up to 20 letters. Use ? or space for blank wildcard tiles to find words with missing letters.",
+    "step2Title": "Filter by Length & Wildcards",
+    "step2Desc": "Looking for a 7 letter word using these letters for a Scrabble Bingo, or a six letter word with these letters? Set minimum and maximum length filters, specify prefixes or suffixes, or use pattern matching to find a crossword word.",
+    "step3Title": "Form Words Instantly",
+    "step3Desc": "Click Solve Anagrams to generate a word with these letters. Words are sorted by length and official tournament points for Scrabble and Words With Friends. Click any word for definitions and audio pronunciation."
+  },
+  "features": {
+    "eyebrow": "Powerful Features",
+    "h2": "Advanced Word Solver Capabilities",
+    "lead": "Designed to help you find all possible words, solve puzzles, and uncover high-scoring board plays faster than ever.",
+    "f1Title": "7-Letter Word Finder (Bingo)",
+    "f1Desc": "Scoring a 50-point Bingo in Scrabble or 35-point bonus in Words With Friends requires playing all 7 tiles. Use our seven letter word find filter to instantly spot game-winning 7-letter words using your exact rack.",
+    "f2Title": "Find Words with Missing Letters",
+    "f2Desc": "Stuck on a crossword or Wordle board? Enter wildcard question marks (?) or use the Pattern Matcher tab (e.g. C..T) to find a crossword word with missing letters in seconds.",
+    "f3Title": "Anagram Solver Multiple Words",
+    "f3Desc": "Most online solvers only handle single words. Our dedicated anagram solver multiple words engine rearranges full names and sentences into witty multi-word phrases (e.g. Clint Eastwood → Old West Action).",
+    "f4Title": "Anagram Solver UK & US Lexicons",
+    "f4Desc": "Whether you need wordsolver uk / anagram solver uk with Collins SOWPODS (CSW21) British English spelling rules, or North American TWL06, switch dictionaries effortlessly with complete tournament validation."
+  },
+  "whatIsAnagram": {
+    "eyebrow": "Word Game Knowledge",
+    "h2": "What is an Anagram?",
+    "p1": "An anagram is a word or phrase formed by rearranging the letters of a different word or phrase, using all the original letters exactly once. For instance, the letters in 'cinema' can be rearranged to spell 'iceman', and 'silent' forms 'listen'.",
+    "p2": "Anagrams have been celebrated since ancient Greece, where poet Lycophron created anagrams of royal names. In modern word games—such as Scrabble, Words with Friends, Wordscapes, Jumble, and Wordle—anagramming is the core skill of looking at scrambled tiles on your rack and forming words with given letters to maximize your score.",
+    "boxTitle": "Why Choose AnagramSolver PRO over The Word Finder or Andy's Word Finder?",
+    "boxDesc": "Unlike ad-heavy legacy websites like The Word Finder or Andy's Anagram Solver, AnagramSolver PRO runs client-side with sub-5 millisecond response times, zero popup ads, a physical 3D tile rack visualizer, audio pronunciation, and built-in multi-word phrase solving."
+  },
+  "faq": {
+    "eyebrow": "Frequently Asked Questions",
+    "h2": "Anagram Finder & Word Solver FAQs",
+    "lead": "Answers to common questions on how to unscramble letters, find words, and use our free word solver.",
+    "q1": "How does the anagram finder work?",
+    "a1": "Our anagram solver free tool uses optimized integer letter frequency histograms precomputed across over 260,000 tournament words. When you enter your letters, the engine performs lightning-fast bitwise and frequency matching in under 5 milliseconds to find all possible words contained within your rack.",
+    "q2": "What words can I make with the following letters?",
+    "a2": "Simply enter your letters into the search box at the top of the page. The tool instantly evaluates all permutations and sub-combinations, grouping results by word length (from 15 letters down to 2-letter words) and scoring each word for Scrabble and Words With Friends.",
+    "q3": "What is an anagram?",
+    "a3": "An anagram is a word or phrase created by rearranging the letters of another word or phrase using all letters exactly once. Famous examples include Cinema ↔ Iceman, Debit card ↔ Bad credit, Astronomer ↔ Moon starer.",
+    "q4": "Can I solve multi-word anagrams?",
+    "a4": "Yes! Click the Multi-Word tab at the top of the page. Our anagram solver multiple words engine uses recursive backtracking to discover 2-word and 3-word anagram phrases from any input name, title, or sentence.",
+    "q5": "How do I search for words with missing letters or find a crossword word?",
+    "a5": "To find a word with missing letters, insert ? (question mark), *, or press Space in the main search input to represent blank tiles. For fixed-position crossword blanks, use our Pattern Matcher tab (e.g., entering C..T to find CHAT, COAT, COST, CART).",
+    "q6": "What words can I play with these letters in Scrabble and Words with Friends?",
+    "a6": "Every word card shows two score badges: SCR (Scrabble point value) and WWF (Words With Friends point value). You can sort results by highest Scrabble score or highest Words With Friends score in the Filters drawer.",
+    "q7": "How do I find a 7 letter word using these letters (Bingo)?",
+    "a7": "Enter your 7 rack letters and check Must use ALL letters (Pure Anagrams only) in the Filters drawer, or click the 7 Letters pill in the results toolbar to filter directly to 7-letter words. Playing all 7 letters awards a 50-point Bingo bonus in Scrabble.",
+    "q8": "How does Anagram Solver UK / WordSolver UK differ from US Scrabble?",
+    "a8": "International and UK Scrabble uses the CSW (Collins Scrabble Words / SOWPODS) lexicon with 267,000+ words, permitting British spellings like COLOUR and international terms. North American tournaments use TWL06 (83,000+ words). You can select either lexicon under Filters → Game Lexicon.",
+    "q9": "Is this anagram solver free?",
+    "a9": "Yes, AnagramSolver PRO is completely free to use with no subscription, no intrusive ads, and no daily limits."
+  },
+  "footer": {
+    "title": "AnagramSolver PRO • Free Online Word Finder",
+    "subtitle": "Fastest anagram generator, crossword word finder, and Scrabble / Words with Friends word solver.",
+    "howItWorks": "How It Works",
+    "faq": "FAQs",
+    "backToTop": "Back to Top ↑",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "disclaimer": "Trademark & Fair Use Disclaimer",
+    "cookies": "Cookie & Local Storage Policy",
+    "disclaimerNotice": "SCRABBLE® is a registered trademark of Hasbro, Inc. in the US and Canada, and of Mattel, Inc. throughout the rest of the world. WORDS WITH FRIENDS™ is a trademark of Zynga Inc. WORDLE™ is a trademark of The New York Times Company. AnagramSolver PRO is an independent reference utility not affiliated with, sponsored by, or endorsed by Hasbro, Mattel, Zynga, or The New York Times.",
+    "copyright": "© 2026 AnagramSolver PRO • All word game dictionaries (ENABLE1, TWL06, SOWPODS/CSW) provided under fair use for educational reference."
+  },
+  "modals": {
+    "definitions": "Definitions",
+    "pronounce": "Pronounce Word",
+    "close": "Close",
+    "saveWord": "Save Word",
+    "wordSaved": "Word Saved",
+    "tileBreakdown": "Tile Score Breakdown",
+    "savedWordsTitle": "Saved Words",
+    "clearAll": "Clear All",
+    "exportSaved": "Export Saved List",
+    "noSavedWords": "No words saved yet. Click the star icon next to any word to save it!"
+  }
+}

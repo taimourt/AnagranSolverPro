@@ -1,0 +1,187 @@
+{
+  "lang": "pt",
+  "name": "Portuguese",
+  "nativeName": "Português",
+  "flag": "🇵🇹",
+  "dir": "ltr",
+  "meta": {
+    "title": "Gerador de Anagramas Grátis & Caça-Palavras | Desembaralhar Letras Online",
+    "description": "Solucionador de anagramas e gerador de palavras rápido e gratuito. Desembaralhe letras para encontrar todas as palavras possíveis, resolva anagramas de várias palavras e calcule pontos para Scrabble.",
+    "keywords": "gerador de anagramas, anagramas, caça-palavras, desembaralhar letras, formar palavras com letras, scrabble em portugues, palavras cruzadas, coringa scrabble, palavras com estas letras, palavras de 7 letras"
+  },
+  "nav": {
+    "anagrams": "Anagramas",
+    "multiWord": "Várias Palavras",
+    "pattern": "Padrão",
+    "arena": "Arena",
+    "playBadge": "Jogar",
+    "twoLetters": "Lista de 2 Letras"
+  },
+  "hero": {
+    "title": "Gerador de Anagramas Grátis & Caça-Palavras",
+    "subtitle": "Quer saber <em>quais palavras posso formar com estas letras</em> ou precisa de um <strong>localizador de palavras</strong> instantâneo? Digite suas letras para <strong>desembaralhar palavras</strong>, encontrar letras que faltam e somar a pontuação máxima no Scrabble e palavras cruzadas."
+  },
+  "search": {
+    "rackPlaceholder": "Digite as letras abaixo para colocar as peças no suporte",
+    "inputPlaceholder": "Insira letras para encontrar todas as palavras (use '?' ou espaço para coringa)...",
+    "solveBtn": "Resolver Anagramas",
+    "filtersBtn": "Filtros",
+    "tip": "Dica: Pressione Espaço para inserir uma peça em branco ou coringa",
+    "shuffleBtn": "Embaralhar",
+    "randomRackBtn": "Suporte Aleatório",
+    "clearBtn": "Limpar letras"
+  },
+  "filters": {
+    "lexiconLabel": "Léxico de Jogo & Dicionário",
+    "sortLabel": "Ordenar Resultados Por",
+    "startsWith": "Começa Com",
+    "endsWith": "Termina Com",
+    "contains": "Contém a Sequência",
+    "exclude": "Excluir Letras",
+    "minLen": "Tamanho Mínimo",
+    "maxLen": "Tamanho Máximo",
+    "allLetters": "Usar TODAS as letras (Apenas Anagramas Puros)",
+    "resetFilters": "Redefinir Filtros",
+    "regionalNote": "Dicionários Oficiais: Selecione SOWPODS / CSW para torneios internacionais ou ENABLE1 / TWL06 para partidas de Scrabble e Words With Friends."
+  },
+  "sortOptions": {
+    "lengthDesc": "Tamanho da Palavra (Mais Longas Primeiro)",
+    "scrabble": "Pontos de Scrabble (Maior para Menor)",
+    "wwf": "Pontos Words With Friends (Maior para Menor)",
+    "lengthAsc": "Tamanho da Palavra (Mais Curtas Primeiro)",
+    "alpha": "Alfabético (A - Z)"
+  },
+  "dictOptions": {
+    "enable1": "Words With Friends (ENABLE1 - 172k palavras)",
+    "twl06": "Scrabble América do Norte (TWL06 - 83k palavras)",
+    "sowpods": "Scrabble Internacional / SOWPODS (267k palavras)",
+    "common": "Palavras Comuns do Dia a Dia (20.000 vocábulos)"
+  },
+  "results": {
+    "foundWords": "Encontradas {count} palavras em {time}ms",
+    "copyAll": "Copiar Tudo",
+    "exportCsv": "Exportar CSV",
+    "copiedToast": "{count} palavras copiadas para a área de transferência!",
+    "exportedToast": "{count} palavras exportadas para CSV",
+    "emptyTitle": "Pronto para Desembaralhar",
+    "emptyDesc": "Digite suas letras na barra acima ou clique em Suporte Aleatório para testar uma mão com 7 peças."
+  },
+  "multiWord": {
+    "title": "Gerador de Anagramas de Várias Palavras",
+    "subtitle": "Transforme nomes, frases e slogans em combinações inteligentes de várias palavras usando exatamente as mesmas letras.",
+    "placeholder": "Frase ou Nome - ex. ASTRONOMO ou MACHADO DE ASSIS",
+    "solveBtn": "Encontrar Frases",
+    "tip": "Gera combinações exatas de 2 a 3 palavras utilizando todas as letras",
+    "emptyTitle": "Digite uma Frase para Desembaralhar",
+    "emptyDesc": "Experimente nomes de pessoas ou expressões para ver todos os anagramas possíveis."
+  },
+  "pattern": {
+    "title": "Buscador de Padrões & Palavras Cruzadas",
+    "subtitle": "Resolva palavras cruzadas, Wordle e encaixes no tabuleiro. Use pontos (.) ou pontos de interrogação (?) para letras desconhecidas.",
+    "placeholder": "Padrão - ex. C..A ou P??O ou ??ZZ??",
+    "solveBtn": "Buscar Combinações",
+    "tip": "Restrição opcional de letras disponíveis:",
+    "constraintPlaceholder": "Usar apenas estas letras (opcional)",
+    "emptyTitle": "Buscar Palavras por Padrão",
+    "emptyDesc": "Digite um modelo como C..A para descobrir palavras correspondentes."
+  },
+  "arena": {
+    "title": "Arena de Anagramas & Treino Mental",
+    "subtitle": "Desembaralhe as peças misteriosas antes que o tempo acabe! Clique nas peças ou digite no teclado.",
+    "difficulty": "Dificuldade",
+    "score": "Pontuação",
+    "streak": "Sequência",
+    "time": "Tempo",
+    "clearBtn": "Limpar",
+    "shuffleBtn": "Embaralhar",
+    "hintBtn": "Dica",
+    "nextBtn": "Próxima Palavra"
+  },
+  "twoLetter": {
+    "title": "Lista Oficial de Palavras de 2 Letras",
+    "subtitle": "O segredo dos mestres do Scrabble. Conheça todas as palavras legais de 2 letras, suas pontuações e significados.",
+    "searchPlaceholder": "Buscar palavras de 2 letras ou definições...",
+    "sortAlpha": "Ordenar: A-Z",
+    "sortPoints": "Ordenar: Mais Pontos"
+  },
+  "howItWorks": {
+    "eyebrow": "Solucionador Instantâneo de Palavras",
+    "h2": "Como Formar Palavras com Letras Dadas (3 Passos Fáceis)",
+    "lead": "Seja para desembaralhar letras rapidamente ou para encontrar a jogada perfeita no Scrabble, nosso solucionador gera todas as palavras possíveis em milissegundos.",
+    "step1Title": "1. Insira suas Letras",
+    "step1Desc": "Digite suas letras na caixa de busca. Quer saber o que formar com essas letras? Digite até 20 caracteres. Use '?' ou espaço para peças em branco ou coringas.",
+    "step2Title": "2. Filtre por Tamanho e Coringas",
+    "step2Desc": "Procura uma palavra de 7 letras para fazer um Bingo (50 pontos de bônus no Scrabble)? Ajuste os limites de tamanho ou filtre por prefixos e sufixos.",
+    "step3Title": "3. Forme Palavras na Hora",
+    "step3Desc": "Clique em Resolver Anagramas para ver todas as palavras organizadas por tamanho e pontos. Clique em qualquer palavra para conferir a pronúncia e definição."
+  },
+  "features": {
+    "eyebrow": "Recursos Poderosos",
+    "h2": "Recursos Avançados para Jogos de Letras",
+    "lead": "Desenvolvido para ajudar você a encontrar todas as palavras possíveis e dominar qualquer partida de tabuleiro.",
+    "f1Title": "Buscador de 7 Letras (Bingo / Scrabble)",
+    "f1Desc": "Jogar todas as 7 peças do suporte garante um bônus de 50 pontos. Nosso filtro de 7 letras revela instantaneamente as melhores jogadas.",
+    "f2Title": "Encontrar Palavras com Letras Faltando",
+    "f2Desc": "Travou em palavras cruzadas ou Wordle? Use coringas (?) ou a aba Padrão para descobrir as palavras certas em instantes.",
+    "f3Title": "Anagramas com Várias Palavras",
+    "f3Desc": "Nosso algoritmo recursivo encontra combinações surpreendentes de 2 ou 3 palavras utilizando exatamente todas as letras da sua frase.",
+    "f4Title": "Dicionários Oficiais de Competição",
+    "f4Desc": "Bases de dados atualizadas (CSW / SOWPODS, TWL06, ENABLE1) garantem validação fiel às regras de torneios mundiais."
+  },
+  "whatIsAnagram": {
+    "eyebrow": "Conhecimento do Jogo",
+    "h2": "O que é um Anagrama?",
+    "p1": "Um anagrama é uma palavra ou frase formada pela transposição das letras de outra palavra ou frase, utilizando todas as letras originais exatamente uma vez. Por exemplo, 'alegria' vira 'galeria', e 'amor' forma 'roma' ou 'ramo'.",
+    "p2": "Conhecidos desde a Grécia antiga, os anagramas são o cerne de grandes jogos como Scrabble, Letroca e palavras cruzadas: olhar para um suporte desordenado e extrair a combinação mais valiosa.",
+    "boxTitle": "Por que Escolher o AnagramSolver PRO?",
+    "boxDesc": "Ao contrário de sites antigos cheios de propagandas intrusivas, o AnagramSolver PRO executa no navegador em menos de 5 milissegundos, sem anúncios, com suporte 3D interativo e pronúncia de áudio."
+  },
+  "faq": {
+    "eyebrow": "Perguntas Frequentes",
+    "h2": "Dúvidas Frequentes sobre Anagramas e Caça-Palavras",
+    "lead": "Tire suas dúvidas sobre como desembaralhar letras e aproveitar ao máximo nosso gerador de palavras.",
+    "q1": "Como funciona o gerador de anagramas?",
+    "a1": "Nossa ferramenta gratuita utiliza histogramas de frequência de letras pré-calculados em mais de 260.000 palavras. A busca compara suas letras em menos de 5 milissegundos para apresentar todas as combinações válidas.",
+    "q2": "Quais palavras posso formar com minhas letras?",
+    "a2": "Basta digitar suas letras na barra superior. O buscador analisa todas as permutações e subcombinações, agrupando-as por tamanho e calculando a pontuação oficial.",
+    "q3": "O que é um anagrama puro?",
+    "a3": "Um anagrama puro utiliza a totalidade das letras fornecidas sem sobrar nenhuma. Exemplos clássicos: Iracema ↔ América, Pato ↔ Topa.",
+    "q4": "Posso resolver anagramas de várias palavras?",
+    "a4": "Sim! Clique na aba 'Várias Palavras'. Nosso sistema encontra combinações de 2 e 3 palavras a partir do texto que você digitar.",
+    "q5": "Como buscar palavras com letras faltando?",
+    "a5": "Digite '?' (ponto de interrogação) ou pressione a barra de espaço para inserir peças coringa. Para palavras cruzadas, utilize a aba Padrão.",
+    "q6": "Como são calculados os pontos?",
+    "a6": "Cada palavra exibe os pontos para Scrabble (SCR) e Words With Friends (WWF), podendo ser ordenada pelo maior valor nos filtros.",
+    "q7": "Como encontro palavras de 7 letras (Bingo)?",
+    "a7": "Insira suas 7 letras e marque 'Usar TODAS as letras' nos filtros ou clique no atalho '7 Letras' na barra de resultados.",
+    "q8": "Quais dicionários estão disponíveis?",
+    "a8": "Você pode escolher entre o internacional CSW/SOWPODS (267.000 palavras), TWL06 (83.000 palavras) e ENABLE1 (172.000 palavras).",
+    "q9": "Este gerador de anagramas é gratuito?",
+    "a9": "Sim, o AnagramSolver PRO é 100% gratuito, sem anúncios incômodos, sem cadastro e com consultas ilimitadas."
+  },
+  "footer": {
+    "title": "AnagramSolver PRO • Caça-Palavras Online Grátis",
+    "subtitle": "O mais rápido gerador de anagramas e solucionador para Scrabble e palavras cruzadas.",
+    "howItWorks": "Como Funciona",
+    "faq": "Perguntas Frequentes",
+    "backToTop": "Voltar ao Topo ↑",
+    "privacy": "Política de Privacidade",
+    "terms": "Termos de Uso",
+    "disclaimer": "Marcas e Uso Justo",
+    "cookies": "Política de Cookies",
+    "disclaimerNotice": "SCRABBLE® é marca registrada da Hasbro e Mattel. WORDS WITH FRIENDS™ é marca da Zynga. AnagramSolver PRO é uma ferramenta independente de consulta.",
+    "copyright": "© 2026 AnagramSolver PRO • Todos os dicionários são disponibilizados para fins educativos e de referência."
+  },
+  "modals": {
+    "definitions": "Definições",
+    "pronounce": "Pronunciar Palavra",
+    "close": "Fechar",
+    "saveWord": "Salvar Palavra",
+    "wordSaved": "Palavra Salva",
+    "tileBreakdown": "Pontos Detalhados por Peça",
+    "savedWordsTitle": "Palavras Salvas",
+    "clearAll": "Limpar Tudo",
+    "exportSaved": "Exportar Lista",
+    "noSavedWords": "Nenhuma palavra salva ainda. Clique na estrela ao lado de qualquer palavra para adicioná-la!"
+  }
+}

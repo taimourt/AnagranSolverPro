@@ -21,6 +21,7 @@ import {
   speakWord
 } from './definitions.js';
 import { AnagramGame } from './game.js';
+import { initLanguageSwitcher, t, getCurrentLang } from './i18n.js';
 
 // Application State
 const state = {
@@ -1198,6 +1199,7 @@ function downloadFile(content, fileName, mimeType) {
 // App Initialization
 async function initApp() {
   initDOMElements();
+  initLanguageSwitcher();
   applyTheme(state.theme);
   updateSoundIcons();
   updateSavedBadge();
