@@ -133,7 +133,7 @@
     "h2": "Was ist ein Anagramm?",
     "p1": "Ein Anagramm ist ein Wort oder eine Wortgruppe, die durch Umstellung der Buchstaben eines anderen Wortes entsteht, wobei alle ursprünglichen Buchstaben exakt einmal verwendet werden. Zum Beispiel wird aus 'Leben' das Wort 'Nebel' oder aus 'Ampel' das Wort 'Palme'.",
     "p2": "Seit der Antike faszinieren Anagramme Sprachbegeisterte. In modernen Wortspielen wie Scrabble, Wordfeud oder Boggle ist das blitzschnelle Erkennen von Anagrammen der Schlüssel zum Sieg.",
-    "boxTitle": "Warum AnagramSolver PRO wählen?",
+    "boxTitle": "Warum AnagramSolverHub wählen?",
     "boxDesc": "Ohne nervige Werbung, mit extrem schnellen Antwortzeiten unter 5 Millisekunden, interaktiver 3D-Buchstabenbank und Audio-Aussprache."
   },
   "faq": {
@@ -157,10 +157,10 @@
     "q8": "Welche Wörterbücher sind verfügbar?",
     "a8": "Sie können zwischen dem internationalen CSW/SOWPODS (267.000 Wörter), US-TWL06 (83.000) und ENABLE1 (172.000) wählen.",
     "q9": "Ist dieser Anagramm-Löser kostenlos?",
-    "a9": "Ja, AnagramSolver PRO ist 100 % kostenlos, werbefrei und ohne Registrierung nutzbar."
+    "a9": "Ja, AnagramSolverHub ist 100 % kostenlos, werbefrei und ohne Registrierung nutzbar."
   },
   "footer": {
-    "title": "AnagramSolver PRO • Kostenloser Online-Wortfinder",
+    "title": "AnagramSolverHub • Kostenloser Online-Wortfinder",
     "subtitle": "Schnellster Wortgenerator, Kreuzworträtsel-Löser und Scrabble-Helfer.",
     "howItWorks": "Anleitung",
     "faq": "FAQ",
@@ -169,8 +169,8 @@
     "terms": "Nutzungsbedingungen",
     "disclaimer": "Marken & Fair Use",
     "cookies": "Cookie-Richtlinie",
-    "disclaimerNotice": "SCRABBLE® ist ein eingetragenes Warenzeichen von Hasbro bzw. Mattel. WORDS WITH FRIENDS™ ist ein Warenzeichen von Zynga. AnagramSolver PRO ist ein unabhängiges Referenztool.",
-    "copyright": "© 2026 AnagramSolver PRO • Alle Wörterbücher dienen Bildungs- und Referenzzwecken."
+    "disclaimerNotice": "SCRABBLE® ist ein eingetragenes Warenzeichen von Hasbro bzw. Mattel. WORDS WITH FRIENDS™ ist ein Warenzeichen von Zynga. AnagramSolverHub ist ein unabhängiges Referenztool.",
+    "copyright": "© 2026 AnagramSolverHub • Alle Wörterbücher dienen Bildungs- und Referenzzwecken."
   },
   "modals": {
     "definitions": "Definitionen",

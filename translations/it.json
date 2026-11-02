@@ -133,8 +133,8 @@
     "h2": "Cos'è un Anagramma?",
     "p1": "Un anagramma è una parola o frase ottenuta permutando le lettere di un'altra parola o frase, adoperando tutte le lettere originarie una sola volta. Ad esempio, le lettere di 'attore' formano 'teatro', e 'roma' dà 'amor' o 'mora'.",
     "p2": "Conosciuti fin dai tempi dell'antica Grecia, gli anagrammi sono la base dei più popolari giochi da tavolo e digitali (Scarabeo, Scrabble, Wordle). Trovare la migliore combinazione su un leggio disordinato è l'abilità regina del gioco.",
-    "boxTitle": "Perché Scegliere AnagramSolver PRO?",
-    "boxDesc": "A differenza di vecchi siti pieni di pubblicità invasiva, AnagramSolver PRO è ultra-veloce (risposte sotto i 5 millisecondi), senza annunci, con leggio 3D interattivo e supporto multi-parola."
+    "boxTitle": "Perché Scegliere AnagramSolverHub?",
+    "boxDesc": "A differenza di vecchi siti pieni di pubblicità invasiva, AnagramSolverHub è ultra-veloce (risposte sotto i 5 millisecondi), senza annunci, con leggio 3D interattivo e supporto multi-parola."
   },
   "faq": {
     "eyebrow": "Domande Frequenti",
@@ -157,10 +157,10 @@
     "q8": "Quali dizionari sono disponibili?",
     "a8": "Puoi scegliere tra il dizionario internazionale SOWPODS / CSW (267.000 parole), TWL06 (83.000 parole) ed ENABLE1 (172.000 parole).",
     "q9": "Questo risolutore è gratuito?",
-    "a9": "Sì, AnagramSolver PRO è completamente gratis, senza pubblicità fastidiose, senza registrazione e senza limiti di ricerca."
+    "a9": "Sì, AnagramSolverHub è completamente gratis, senza pubblicità fastidiose, senza registrazione e senza limiti di ricerca."
   },
   "footer": {
-    "title": "AnagramSolver PRO • Trova Parole Online Gratuito",
+    "title": "AnagramSolverHub • Trova Parole Online Gratuito",
     "subtitle": "Il risolutore di anagrammi più rapido per Scarabeo, Scrabble e parole crociate.",
     "howItWorks": "Come Funziona",
     "faq": "FAQ",
@@ -169,8 +169,8 @@
     "terms": "Termini di Servizio",
     "disclaimer": "Marchi e Uso Legittimo",
     "cookies": "Politica sui Cookie",
-    "disclaimerNotice": "SCRABBLE® è un marchio registrato di Hasbro e Mattel. WORDS WITH FRIENDS™ è un marchio di Zynga. AnagramSolver PRO è uno strumento indipendente di consultazione.",
-    "copyright": "© 2026 AnagramSolver PRO • Tutti i lessici forniti per scopi educativi e di consultazione."
+    "disclaimerNotice": "SCRABBLE® è un marchio registrato di Hasbro e Mattel. WORDS WITH FRIENDS™ è un marchio di Zynga. AnagramSolverHub è uno strumento indipendente di consultazione.",
+    "copyright": "© 2026 AnagramSolverHub • Tutti i lessici forniti per scopi educativi e di consultazione."
   },
   "modals": {
     "definitions": "Definizioni",

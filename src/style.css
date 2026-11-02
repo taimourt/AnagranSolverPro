@@ -1,4 +1,4 @@
-/* AnagramSolver Pro - Modern Luxury Design System & Styling */
+/* AnagramSolverHub - Modern Luxury Design System & Styling */
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@500;700&family=Outfit:wght@500;600;700;800&display=swap');
 
@@ -203,6 +203,7 @@ body {
   -webkit-text-fill-color: transparent;
 }
 
+.hub-badge,
 .pro-badge {
   background: linear-gradient(135deg, #f59e0b, #ef4444);
   color: #fff;

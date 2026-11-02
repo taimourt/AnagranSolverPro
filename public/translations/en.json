@@ -133,8 +133,8 @@
     "h2": "What is an Anagram?",
     "p1": "An anagram is a word or phrase formed by rearranging the letters of a different word or phrase, using all the original letters exactly once. For instance, the letters in 'cinema' can be rearranged to spell 'iceman', and 'silent' forms 'listen'.",
     "p2": "Anagrams have been celebrated since ancient Greece, where poet Lycophron created anagrams of royal names. In modern word games—such as Scrabble, Words with Friends, Wordscapes, Jumble, and Wordle—anagramming is the core skill of looking at scrambled tiles on your rack and forming words with given letters to maximize your score.",
-    "boxTitle": "Why Choose AnagramSolver PRO over The Word Finder or Andy's Word Finder?",
-    "boxDesc": "Unlike ad-heavy legacy websites like The Word Finder or Andy's Anagram Solver, AnagramSolver PRO runs client-side with sub-5 millisecond response times, zero popup ads, a physical 3D tile rack visualizer, audio pronunciation, and built-in multi-word phrase solving."
+    "boxTitle": "Why Choose AnagramSolverHub over The Word Finder or Andy's Word Finder?",
+    "boxDesc": "Unlike ad-heavy legacy websites like The Word Finder or Andy's Anagram Solver, AnagramSolverHub runs client-side with sub-5 millisecond response times, zero popup ads, a physical 3D tile rack visualizer, audio pronunciation, and built-in multi-word phrase solving."
   },
   "faq": {
     "eyebrow": "Frequently Asked Questions",
@@ -157,10 +157,10 @@
     "q8": "How does Anagram Solver UK / WordSolver UK differ from US Scrabble?",
     "a8": "International and UK Scrabble uses the CSW (Collins Scrabble Words / SOWPODS) lexicon with 267,000+ words, permitting British spellings like COLOUR and international terms. North American tournaments use TWL06 (83,000+ words). You can select either lexicon under Filters → Game Lexicon.",
     "q9": "Is this anagram solver free?",
-    "a9": "Yes, AnagramSolver PRO is completely free to use with no subscription, no intrusive ads, and no daily limits."
+    "a9": "Yes, AnagramSolverHub is completely free to use with no subscription, no intrusive ads, and no daily limits."
   },
   "footer": {
-    "title": "AnagramSolver PRO • Free Online Word Finder",
+    "title": "AnagramSolverHub • Free Online Word Finder",
     "subtitle": "Fastest anagram generator, crossword word finder, and Scrabble / Words with Friends word solver.",
     "howItWorks": "How It Works",
     "faq": "FAQs",
@@ -169,8 +169,8 @@
     "terms": "Terms of Service",
     "disclaimer": "Trademark & Fair Use Disclaimer",
     "cookies": "Cookie & Local Storage Policy",
-    "disclaimerNotice": "SCRABBLE® is a registered trademark of Hasbro, Inc. in the US and Canada, and of Mattel, Inc. throughout the rest of the world. WORDS WITH FRIENDS™ is a trademark of Zynga Inc. WORDLE™ is a trademark of The New York Times Company. AnagramSolver PRO is an independent reference utility not affiliated with, sponsored by, or endorsed by Hasbro, Mattel, Zynga, or The New York Times.",
-    "copyright": "© 2026 AnagramSolver PRO • All word game dictionaries (ENABLE1, TWL06, SOWPODS/CSW) provided under fair use for educational reference."
+    "disclaimerNotice": "SCRABBLE® is a registered trademark of Hasbro, Inc. in the US and Canada, and of Mattel, Inc. throughout the rest of the world. WORDS WITH FRIENDS™ is a trademark of Zynga Inc. WORDLE™ is a trademark of The New York Times Company. AnagramSolverHub is an independent reference utility not affiliated with, sponsored by, or endorsed by Hasbro, Mattel, Zynga, or The New York Times.",
+    "copyright": "© 2026 AnagramSolverHub • All word game dictionaries (ENABLE1, TWL06, SOWPODS/CSW) provided under fair use for educational reference."
   },
   "modals": {
     "definitions": "Definitions",

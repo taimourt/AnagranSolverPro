@@ -11,7 +11,7 @@ const languages = ['es', 'fr', 'de', 'it', 'pt'];
 
 function renderHtml(t, lang) {
   const isEn = lang === 'en';
-  const canonicalUrl = isEn ? 'https://anagramsolverpro.com/' : `https://anagramsolverpro.com/${lang}/`;
+  const canonicalUrl = isEn ? 'https://anagramsolverhub.com/' : `https://anagramsolverhub.com/${lang}/`;
 
   const langOptionsHtml = [
     { code: 'en', path: '/', flag: '🇺🇸', name: 'English', sub: 'English' },
@@ -39,13 +39,13 @@ function renderHtml(t, lang) {
     <meta name="keywords" content="${t.meta.keywords}" />
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%23f59e0b'/><text x='50' y='68' font-family='sans-serif' font-size='60' font-weight='bold' text-anchor='middle' fill='%2378350f'>A</text></svg>" />
     <link rel="canonical" href="${canonicalUrl}" />
-    <link rel="alternate" hreflang="x-default" href="https://anagramsolverpro.com/" />
-    <link rel="alternate" hreflang="en" href="https://anagramsolverpro.com/" />
-    <link rel="alternate" hreflang="es" href="https://anagramsolverpro.com/es/" />
-    <link rel="alternate" hreflang="fr" href="https://anagramsolverpro.com/fr/" />
-    <link rel="alternate" hreflang="de" href="https://anagramsolverpro.com/de/" />
-    <link rel="alternate" hreflang="it" href="https://anagramsolverpro.com/it/" />
-    <link rel="alternate" hreflang="pt" href="https://anagramsolverpro.com/pt/" />
+    <link rel="alternate" hreflang="x-default" href="https://anagramsolverhub.com/" />
+    <link rel="alternate" hreflang="en" href="https://anagramsolverhub.com/" />
+    <link rel="alternate" hreflang="es" href="https://anagramsolverhub.com/es/" />
+    <link rel="alternate" hreflang="fr" href="https://anagramsolverhub.com/fr/" />
+    <link rel="alternate" hreflang="de" href="https://anagramsolverhub.com/de/" />
+    <link rel="alternate" hreflang="it" href="https://anagramsolverhub.com/it/" />
+    <link rel="alternate" hreflang="pt" href="https://anagramsolverhub.com/pt/" />
     <link rel="stylesheet" href="/src/style.css" />
 
     <!-- Schema.org Structured Data: FAQPage & WebApplication -->
@@ -55,7 +55,7 @@ function renderHtml(t, lang) {
       "@graph": [
         {
           "@type": "WebApplication",
-          "name": "AnagramSolver PRO",
+          "name": "AnagramSolverHub",
           "url": "${canonicalUrl}",
           "applicationCategory": "GameApplication, ReferenceApplication",
           "operatingSystem": "All",
@@ -159,10 +159,10 @@ function renderHtml(t, lang) {
             <div class="brand-tiles">
               <div class="brand-mini-tile">A</div>
               <div class="brand-mini-tile">S</div>
-              <div class="brand-mini-tile">P</div>
+              <div class="brand-mini-tile">H</div>
             </div>
             <div class="brand-text">
-              <h1>AnagramSolver <span class="pro-badge">PRO</span></h1>
+              <h1>AnagramSolver <span class="hub-badge">HUB</span></h1>
             </div>
           </div>
 

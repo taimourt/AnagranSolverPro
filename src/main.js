@@ -1,4 +1,4 @@
-// AnagramSolver Pro - Core Orchestration & UI Controller
+// AnagramSolverHub - Core Orchestration & UI Controller
 import { sound } from './sound.js';
 import {
   DICTIONARY_META,

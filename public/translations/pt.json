@@ -133,8 +133,8 @@
     "h2": "O que é um Anagrama?",
     "p1": "Um anagrama é uma palavra ou frase formada pela transposição das letras de outra palavra ou frase, utilizando todas as letras originais exatamente uma vez. Por exemplo, 'alegria' vira 'galeria', e 'amor' forma 'roma' ou 'ramo'.",
     "p2": "Conhecidos desde a Grécia antiga, os anagramas são o cerne de grandes jogos como Scrabble, Letroca e palavras cruzadas: olhar para um suporte desordenado e extrair a combinação mais valiosa.",
-    "boxTitle": "Por que Escolher o AnagramSolver PRO?",
-    "boxDesc": "Ao contrário de sites antigos cheios de propagandas intrusivas, o AnagramSolver PRO executa no navegador em menos de 5 milissegundos, sem anúncios, com suporte 3D interativo e pronúncia de áudio."
+    "boxTitle": "Por que Escolher o AnagramSolverHub?",
+    "boxDesc": "Ao contrário de sites antigos cheios de propagandas intrusivas, o AnagramSolverHub executa no navegador em menos de 5 milissegundos, sem anúncios, com suporte 3D interativo e pronúncia de áudio."
   },
   "faq": {
     "eyebrow": "Perguntas Frequentes",
@@ -157,10 +157,10 @@
     "q8": "Quais dicionários estão disponíveis?",
     "a8": "Você pode escolher entre o internacional CSW/SOWPODS (267.000 palavras), TWL06 (83.000 palavras) e ENABLE1 (172.000 palavras).",
     "q9": "Este gerador de anagramas é gratuito?",
-    "a9": "Sim, o AnagramSolver PRO é 100% gratuito, sem anúncios incômodos, sem cadastro e com consultas ilimitadas."
+    "a9": "Sim, o AnagramSolverHub é 100% gratuito, sem anúncios incômodos, sem cadastro e com consultas ilimitadas."
   },
   "footer": {
-    "title": "AnagramSolver PRO • Caça-Palavras Online Grátis",
+    "title": "AnagramSolverHub • Caça-Palavras Online Grátis",
     "subtitle": "O mais rápido gerador de anagramas e solucionador para Scrabble e palavras cruzadas.",
     "howItWorks": "Como Funciona",
     "faq": "Perguntas Frequentes",
@@ -169,8 +169,8 @@
     "terms": "Termos de Uso",
     "disclaimer": "Marcas e Uso Justo",
     "cookies": "Política de Cookies",
-    "disclaimerNotice": "SCRABBLE® é marca registrada da Hasbro e Mattel. WORDS WITH FRIENDS™ é marca da Zynga. AnagramSolver PRO é uma ferramenta independente de consulta.",
-    "copyright": "© 2026 AnagramSolver PRO • Todos os dicionários são disponibilizados para fins educativos e de referência."
+    "disclaimerNotice": "SCRABBLE® é marca registrada da Hasbro e Mattel. WORDS WITH FRIENDS™ é marca da Zynga. AnagramSolverHub é uma ferramenta independente de consulta.",
+    "copyright": "© 2026 AnagramSolverHub • Todos os dicionários são disponibilizados para fins educativos e de referência."
   },
   "modals": {
     "definitions": "Definições",

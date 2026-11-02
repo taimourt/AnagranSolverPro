@@ -1,4 +1,4 @@
-// High-Performance Anagram & Sub-word Solver Engine for AnagramSolver Pro
+// High-Performance Anagram & Sub-word Solver Engine for AnagramSolverHub
 import { calculateScore } from './scoring.js';
 
 export function parseRack(rackInput) {

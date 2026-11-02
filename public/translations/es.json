@@ -133,8 +133,8 @@
     "h2": "¿Qué es un Anagrama?",
     "p1": "Un anagrama es una palabra o frase que resulta de la transposición de las letras de otra palabra o frase, utilizando todas las letras originales exactamente una vez. Por ejemplo, las letras de 'roma' pueden reorganizarse para formar 'amor', 'ramo' o 'mora'.",
     "p2": "Los anagramas se han practicado desde la Grecia clásica y hoy constituyen la habilidad fundamental en juegos como Scrabble, Apalabrados, Wordscapes y crucigramas: mirar un atril desordenado y extraer la palabra de mayor valor.",
-    "boxTitle": "¿Por qué elegir AnagramSolver PRO frente a otras herramientas?",
-    "boxDesc": "A diferencia de sitios web lentos y saturados de publicidad, AnagramSolver PRO funciona con tiempos de respuesta inferiores a 5 milisegundos, sin anuncios intrusivos, con atril 3D interactivo y generador multipalabra."
+    "boxTitle": "¿Por qué elegir AnagramSolverHub frente a otras herramientas?",
+    "boxDesc": "A diferencia de sitios web lentos y saturados de publicidad, AnagramSolverHub funciona con tiempos de respuesta inferiores a 5 milisegundos, sin anuncios intrusivos, con atril 3D interactivo y generador multipalabra."
   },
   "faq": {
     "eyebrow": "Preguntas Frecuentes",
@@ -157,10 +157,10 @@
     "q8": "¿En qué se diferencian los diccionarios regionales?",
     "a8": "El léxico internacional CSW (SOWPODS) contiene más de 267.000 palabras para torneos internacionales, mientras que TWL06 se enfoca en Norteamérica y ENABLE1 en Words With Friends. Puedes cambiar entre ellos con un solo clic.",
     "q9": "¿Este buscador de anagramas es gratis?",
-    "a9": "Sí, AnagramSolver PRO es 100% gratuito, sin registro requerido, sin publicidad invasiva y con uso ilimitado."
+    "a9": "Sí, AnagramSolverHub es 100% gratuito, sin registro requerido, sin publicidad invasiva y con uso ilimitado."
   },
   "footer": {
-    "title": "AnagramSolver PRO • Buscador Gratuito de Palabras Online",
+    "title": "AnagramSolverHub • Buscador Gratuito de Palabras Online",
     "subtitle": "El generador de anagramas más veloz, buscador para crucigramas y asistente para Scrabble y Apalabrados.",
     "howItWorks": "Cómo Funciona",
     "faq": "Preguntas Frecuentes",
@@ -169,8 +169,8 @@
     "terms": "Términos del Servicio",
     "disclaimer": "Marcas Registradas y Uso Justo",
     "cookies": "Política de Cookies y Almacenamiento",
-    "disclaimerNotice": "SCRABBLE® es una marca registrada de Hasbro, Inc. en EE. UU. y Canadá, y de Mattel, Inc. en el resto del mundo. WORDS WITH FRIENDS™ es una marca de Zynga Inc. AnagramSolver PRO es una herramienta de referencia independiente sin relación ni patrocinio de Hasbro, Mattel o Zynga.",
-    "copyright": "© 2026 AnagramSolver PRO • Todos los diccionarios de juegos se suministran bajo uso legítimo para fines educativos y de referencia."
+    "disclaimerNotice": "SCRABBLE® es una marca registrada de Hasbro, Inc. en EE. UU. y Canadá, y de Mattel, Inc. en el resto del mundo. WORDS WITH FRIENDS™ es una marca de Zynga Inc. AnagramSolverHub es una herramienta de referencia independiente sin relación ni patrocinio de Hasbro, Mattel o Zynga.",
+    "copyright": "© 2026 AnagramSolverHub • Todos los diccionarios de juegos se suministran bajo uso legítimo para fines educativos y de referencia."
   },
   "modals": {
     "definitions": "Definiciones",

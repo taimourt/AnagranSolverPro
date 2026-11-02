@@ -1,4 +1,4 @@
-# AnagramSolver PRO 🎯
+# AnagramSolverHub 🎯
 
 A modern, high-speed, and feature-rich alternative to online anagram solvers like TheWordFinder. Built with Vanilla CSS, modern JavaScript, and Vite for sub-10 millisecond word solving without ads or lag.
 
@@ -6,7 +6,7 @@ A modern, high-speed, and feature-rich alternative to online anagram solvers lik
 
 ## 🚀 Key Advantages Over TheWordFinder
 
-| Feature | TheWordFinder | AnagramSolver PRO |
+| Feature | TheWordFinder | AnagramSolverHub |
 |---|---|---|
 | **Speed** | Slow server roundtrips (~800ms) | Instant client-side solving (< 5ms) |
 | **User Interface** | Cluttered with intrusive ads, old Bootstrap | Sleek glassmorphism, 3D Scrabble tile visualizer |

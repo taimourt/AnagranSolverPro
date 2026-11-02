@@ -1,4 +1,4 @@
-// AnagramSolver Pro - Internationalization (i18n) Engine & Language Switcher
+// AnagramSolverHub - Internationalization (i18n) Engine & Language Switcher
 import en from '../translations/en.json';
 import es from '../translations/es.json';
 import fr from '../translations/fr.json';

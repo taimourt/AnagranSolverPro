@@ -1,4 +1,4 @@
-// Realistic Web Audio sound synthesizer for AnagramSolver Pro
+// Realistic Web Audio sound synthesizer for AnagramSolverHub
 // 100% offline, zero external audio files needed
 
 class SoundFX {

@@ -133,8 +133,8 @@
     "h2": "Qu'est-ce qu'une Anagramme ?",
     "p1": "Une anagramme est un mot ou une phrase obtenu en transposant les lettres d'un autre mot ou d'une autre phrase, chaque lettre d'origine étant utilisée exactement une fois. Par exemple, 'chien' est l'anagramme de 'niche', et 'gare' donne 'rage'.",
     "p2": "Pratiquées depuis l'Antiquité grecque, les anagrammes sont au cœur de tous les grands jeux de lettres (Scrabble, Boggle, Wordle, Mots Croisés). Savoir recombiner instantanément un tirage de lettres permet de dominer ses adversaires.",
-    "boxTitle": "Pourquoi Choisir AnagramSolver PRO ?",
-    "boxDesc": "Contrairement aux sites anciens saturés de publicités intrusives, AnagramSolver PRO s'exécute côté client en moins de 5 millisecondes, sans aucune pub, avec un chevalet 3D tactile et un générateur de phrases complet."
+    "boxTitle": "Pourquoi Choisir AnagramSolverHub ?",
+    "boxDesc": "Contrairement aux sites anciens saturés de publicités intrusives, AnagramSolverHub s'exécute côté client en moins de 5 millisecondes, sans aucune pub, avec un chevalet 3D tactile et un générateur de phrases complet."
   },
   "faq": {
     "eyebrow": "Foire Aux Questions",
@@ -157,10 +157,10 @@
     "q8": "Quels sont les dictionnaires proposés ?",
     "a8": "Vous disposez du lexique international SOWPODS / CSW (267 000 mots), du lexique TWL06 (83 000 mots) et du lexique ENABLE1 (172 000 mots).",
     "q9": "Ce solveur d'anagrammes est-il gratuit ?",
-    "a9": "Oui, AnagramSolver PRO est 100 % gratuit, sans inscription, sans publicité intrusive et sans aucune limite d'utilisation."
+    "a9": "Oui, AnagramSolverHub est 100 % gratuit, sans inscription, sans publicité intrusive et sans aucune limite d'utilisation."
   },
   "footer": {
-    "title": "AnagramSolver PRO • Solveur de Mots Gratuit en Ligne",
+    "title": "AnagramSolverHub • Solveur de Mots Gratuit en Ligne",
     "subtitle": "Le générateur d'anagrammes le plus rapide pour le Scrabble, les mots croisés et les jeux de lettres.",
     "howItWorks": "Comment ça Marche",
     "faq": "FAQ",
@@ -169,8 +169,8 @@
     "terms": "Conditions d'Utilisation",
     "disclaimer": "Marques Déposées & Fair Use",
     "cookies": "Politique des Cookies & Stockage",
-    "disclaimerNotice": "SCRABBLE® est une marque déposée de Mattel ou Hasbro. WORDS WITH FRIENDS™ est une marque de Zynga. AnagramSolver PRO est un outil de référence indépendant sans lien ni affiliation avec ces sociétés.",
-    "copyright": "© 2026 AnagramSolver PRO • Lexiques et dictionnaires fournis à des fins éducatives et de référence."
+    "disclaimerNotice": "SCRABBLE® est une marque déposée de Mattel ou Hasbro. WORDS WITH FRIENDS™ est une marque de Zynga. AnagramSolverHub est un outil de référence indépendant sans lien ni affiliation avec ces sociétés.",
+    "copyright": "© 2026 AnagramSolverHub • Lexiques et dictionnaires fournis à des fins éducatives et de référence."
   },
   "modals": {
     "definitions": "Définitions",

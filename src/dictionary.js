@@ -1,4 +1,4 @@
-// Dictionary Loader & Preprocessing Engine for AnagramSolver Pro
+// Dictionary Loader & Preprocessing Engine for AnagramSolverHub
 
 // Map of dictionary ID to file paths and human-readable metadata
 export const DICTIONARY_META = {
