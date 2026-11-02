@@ -34,6 +34,15 @@ function renderHtml(t, lang) {
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-BK36P6YSCX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-BK36P6YSCX');
+    </script>
     <title>${t.meta.title}</title>
     <meta name="description" content="${t.meta.description}" />
     <meta name="keywords" content="${t.meta.keywords}" />
